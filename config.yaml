@@ -20,7 +20,7 @@ courses:
   - hamlet_wind_watch
 
 dates: []
-weekdays: [Sat, Sun]
+weekdays: [Thu, Fri, Sat, Sun]
 horizon_days: 14
 
 time_window:
@@ -34,5 +34,5 @@ filters:
 
 notify:
   backend: ntfy
-  topic: "li-links-d8dd531d4d2597ca"
+  topic: "amg-looper-e2525e2fbf26"
   priority: high
