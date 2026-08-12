@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T07:06:18.513249-04:00",
-  "count": 15,
+  "updated": "2026-08-12T08:36:53.141558-04:00",
+  "count": 19,
   "settings": {
     "courses": [
       "bethpage",
@@ -56,6 +56,28 @@
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-08-13",
+      "time": "10:00a",
+      "when": "2026-08-13T10:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-13",
+      "time": "10:10a",
+      "when": "2026-08-13T10:10:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-13",
       "time": "10:20a",
       "when": "2026-08-13T10:20:00",
       "holes": 18,
@@ -70,7 +92,7 @@
       "time": "10:30a",
       "when": "2026-08-13T10:30:00",
       "holes": 18,
-      "players": 1,
+      "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
@@ -130,6 +152,17 @@
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
+      "date": "2026-08-14",
+      "time": "10:20a",
+      "when": "2026-08-14T10:20:00",
+      "holes": 18,
+      "players": 2,
+      "price": 56.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
+    },
+    {
       "course_key": "rock_hill",
       "course": "Rock Hill Golf & Country Club",
       "date": "2026-08-14",
@@ -155,17 +188,6 @@
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-08-15",
-      "time": "6:00a",
-      "when": "2026-08-15T06:00:00",
-      "holes": 18,
-      "players": 1,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
       "time": "6:20a",
       "when": "2026-08-15T06:20:00",
       "holes": 18,
@@ -180,7 +202,18 @@
       "time": "7:00a",
       "when": "2026-08-15T07:00:00",
       "holes": 18,
-      "players": 1,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "9:30a",
+      "when": "2026-08-15T09:30:00",
+      "holes": 18,
+      "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
@@ -205,6 +238,17 @@
       "players": 1,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-08-15",
+      "time": "10:48a",
+      "when": "2026-08-15T10:48:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     }
   ],
   "catalog": [
