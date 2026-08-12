@@ -1,0 +1,190 @@
+{
+  "updated": "2026-08-12T05:47:08.993995-04:00",
+  "count": 5,
+  "settings": {
+    "courses": [
+      "bethpage",
+      "montauk_downs",
+      "sunken_meadow",
+      "rock_hill",
+      "crab_meadow",
+      "gull_haven",
+      "holbrook",
+      "tall_grass",
+      "smithtown_landing",
+      "stonebridge",
+      "middle_island",
+      "cherry_creek",
+      "great_rock",
+      "bergen_point",
+      "poxabogue",
+      "peninsula",
+      "swan_lake",
+      "hamlet_wind_watch"
+    ],
+    "weekdays": [
+      5,
+      6
+    ],
+    "horizon_days": 7,
+    "earliest": "06:00",
+    "latest": "12:00",
+    "holes": 18,
+    "players_min": 1,
+    "max_price": null,
+    "notify": {
+      "backend": "ntfy",
+      "topic": "amg-looper-e2525e2fbf26",
+      "priority": "high"
+    }
+  },
+  "open": [
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "6:00a",
+      "when": "2026-08-15T06:00:00",
+      "holes": 18,
+      "players": 1,
+      "price": 0.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "6:20a",
+      "when": "2026-08-15T06:20:00",
+      "holes": 18,
+      "players": 1,
+      "price": 0.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "7:00a",
+      "when": "2026-08-15T07:00:00",
+      "holes": 18,
+      "players": 1,
+      "price": 0.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "9:40a",
+      "when": "2026-08-15T09:40:00",
+      "holes": 18,
+      "players": 1,
+      "price": 0.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "10:30a",
+      "when": "2026-08-15T10:30:00",
+      "holes": 18,
+      "players": 1,
+      "price": 0.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    }
+  ],
+  "catalog": [
+    {
+      "key": "bethpage",
+      "name": "Bethpage State Park (all 5 courses)",
+      "provider": "foreup"
+    },
+    {
+      "key": "montauk_downs",
+      "name": "Montauk Downs State Park",
+      "provider": "foreup"
+    },
+    {
+      "key": "sunken_meadow",
+      "name": "Sunken Meadow State Park",
+      "provider": "foreup"
+    },
+    {
+      "key": "rock_hill",
+      "name": "Rock Hill Golf & Country Club (Manorville)",
+      "provider": "foreup"
+    },
+    {
+      "key": "crab_meadow",
+      "name": "Crab Meadow Golf Course (Northport)",
+      "provider": "foreup"
+    },
+    {
+      "key": "gull_haven",
+      "name": "Gull Haven Golf Course (Central Islip)",
+      "provider": "foreup"
+    },
+    {
+      "key": "holbrook",
+      "name": "Holbrook Country Club (Holbrook)",
+      "provider": "foreup"
+    },
+    {
+      "key": "tall_grass",
+      "name": "Tall Grass Golf Club (Shoreham)",
+      "provider": "foreup"
+    },
+    {
+      "key": "smithtown_landing",
+      "name": "Smithtown Landing Country Club",
+      "provider": "teeitup"
+    },
+    {
+      "key": "stonebridge",
+      "name": "Stonebridge Golf Links & CC (Smithtown)",
+      "provider": "teeitup"
+    },
+    {
+      "key": "middle_island",
+      "name": "Middle Island Country Club",
+      "provider": "teeitup"
+    },
+    {
+      "key": "great_rock",
+      "name": "Great Rock Golf Club (Wading River)",
+      "provider": "teeitup"
+    },
+    {
+      "key": "cherry_creek",
+      "name": "Cherry Creek Golf Links (Riverhead)",
+      "provider": "teeitup"
+    },
+    {
+      "key": "bergen_point",
+      "name": "Bergen Point Golf Course (Babylon)",
+      "provider": "teeitup"
+    },
+    {
+      "key": "poxabogue",
+      "name": "Poxabogue Golf Center (Sagaponack)",
+      "provider": "teeitup"
+    },
+    {
+      "key": "peninsula",
+      "name": "Peninsula Golf Club (Massapequa)",
+      "provider": "teeitup"
+    },
+    {
+      "key": "swan_lake",
+      "name": "Swan Lake Golf Club (Manorville)",
+      "provider": "chronogolf"
+    },
+    {
+      "key": "hamlet_wind_watch",
+      "name": "Hamlet Wind Watch Golf Club (Hauppauge)",
+      "provider": "chronogolf"
+    }
+  ]
+}
