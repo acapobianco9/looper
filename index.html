@@ -12,22 +12,23 @@
 <meta name="apple-mobile-web-app-title" content="LI Links">
 <title>LI Links — tee time watcher</title>
 <style>
-:root{--g1:#1aa24f;--g2:#12813d;--ink:#0e1f14;--paper:#f4f8f5;--card:#fff;--line:#e2ebe3;--muted:#5c6f61;--flag:#e8552d;--chip:#eef5ef}
+:root{--g1:#1aa24f;--g2:#12813d;--ink:#0e1f14;--paper:#f4f8f5;--card:#fff;--line:#e2ebe3;--muted:#5c6f61;--chip:#eef5ef;--flag:#e8552d}
 *{box-sizing:border-box}
 html,body{margin:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;padding-bottom:40px;overflow-x:hidden}
-.wrap{max-width:680px;margin:0 auto;padding:0 14px}
-header{display:flex;align-items:center;gap:11px;padding:16px 0 10px}
-header .logo{width:44px;height:44px;flex:0 0 44px}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;padding-bottom:44px;overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding:0 14px}
+header{display:flex;align-items:center;gap:12px;padding:16px 0 10px}
+header .logo{width:46px;height:46px;flex:0 0 46px;border-radius:12px;overflow:hidden;box-shadow:0 6px 16px -8px rgba(14,31,20,.5)}
+header .logo svg{width:100%;height:100%;display:block}
 header h1{font-size:26px;font-weight:800;letter-spacing:-.02em;margin:0}
 header .sub{font-size:12.5px;color:var(--muted);margin-top:1px}
 .tabs{display:flex;gap:8px;position:sticky;top:0;background:var(--paper);padding:8px 0 10px;z-index:5}
-.tab{flex:1;text-align:center;padding:11px;border-radius:12px;background:var(--chip);font-weight:700;font-size:14.5px;cursor:pointer;border:1.5px solid transparent;color:#2c3d31}
+.tab{flex:1;text-align:center;padding:11px;border-radius:12px;background:var(--chip);font-weight:700;font-size:14.5px;cursor:pointer;color:#2c3d31}
 .tab.on{background:var(--g1);color:#fff;box-shadow:0 6px 16px -8px rgba(18,129,61,.7)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:0 10px 26px -22px rgba(14,31,20,.4)}
 .updated{font-size:12.5px;color:var(--muted);display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
 .refresh{border:none;background:var(--chip);border-radius:9px;padding:6px 11px;font-weight:700;font-size:12.5px;color:var(--g2);cursor:pointer}
-.count{font-family:inherit;font-weight:800;font-size:19px;margin:2px 0 12px}
+.count{font-weight:800;font-size:19px;margin:2px 0 12px}
 .grp{font-weight:800;font-size:15px;margin:16px 0 8px;display:flex;align-items:center;gap:8px}
 .grp .badge{font-size:11px;font-weight:700;background:var(--chip);color:var(--g2);border-radius:999px;padding:2px 8px}
 .slot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:11px;margin-bottom:7px}
@@ -36,11 +37,18 @@ header .sub{font-size:12.5px;color:var(--muted);margin-top:1px}
 .book{flex:0 0 auto;text-decoration:none;background:var(--g1);color:#fff;font-weight:700;font-size:13px;border-radius:9px;padding:8px 13px}
 .empty{text-align:center;color:var(--muted);padding:26px 10px;font-size:14.5px}
 .empty .big{font-size:34px;margin-bottom:8px}
-/* settings */
-.section-label{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:18px 0 9px}
+.section-label{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:18px 0 9px;display:flex;justify-content:space-between;align-items:center}
+.section-label .mini{font-weight:700;font-size:11px;color:var(--g2);cursor:pointer;text-transform:none;letter-spacing:0}
+.search{width:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:11px;font-size:14.5px;font-family:inherit;margin-bottom:6px;background:#fbfdfb}
+.grouphead{display:flex;align-items:center;justify-content:space-between;margin:14px 0 8px}
+.grouphead .gname{font-weight:800;font-size:13.5px;color:var(--ink)}
+.grouphead .gcount{font-size:11px;color:var(--muted);font-weight:600;margin-left:6px}
+.gtoggle{border:none;background:var(--chip);color:var(--g2);font-weight:700;font-size:11.5px;border-radius:8px;padding:5px 10px;cursor:pointer;font-family:inherit}
 .chips{display:flex;flex-wrap:wrap;gap:7px}
-.chip{border:1.5px solid var(--line);background:var(--chip);color:#2c3d31;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;user-select:none}
+.chip{border:1.5px solid var(--line);background:var(--chip);color:#2c3d31;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;display:flex;align-items:center;gap:5px}
 .chip.on{background:var(--g1);border-color:var(--g1);color:#fff}
+.chip.locked{opacity:.6;border-style:dashed}
+.chip .lock{font-size:11px}
 .days{display:flex;gap:5px}
 .day{flex:1;height:42px;border-radius:10px;border:1.5px solid var(--line);background:#fff;font-weight:800;font-size:12.5px;cursor:pointer;color:#2c3d31}
 .day.on{background:var(--g1);border-color:var(--g1);color:#fff}
@@ -59,10 +67,11 @@ input[type=range]{width:150px;accent-color:var(--g1)}
 .toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;font-size:14px;opacity:0;transition:.25s;pointer-events:none;max-width:90%;text-align:center;z-index:20}
 .toast.show{opacity:1}
 .link{color:var(--g2);font-weight:700;text-decoration:underline;cursor:pointer}
-input[type=password],input[type=text].tok{width:100%;padding:11px;border:1.5px solid var(--line);border-radius:10px;font-size:14px;font-family:inherit;margin-top:6px}
+input[type=password],input.tok{width:100%;padding:11px;border:1.5px solid var(--line);border-radius:10px;font-size:14px;font-family:inherit;margin-top:6px}
 .hidden{display:none}
 .connbar{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);margin-bottom:4px}
 .dot{width:9px;height:9px;border-radius:50%;background:#c2ccc4}.dot.ok{background:var(--g1)}
+.summ{font-size:12.5px;color:var(--muted);margin:2px 0 4px}
 </style></head>
 <body>
 <div class="wrap">
@@ -91,33 +100,36 @@ input[type=password],input[type=text].tok{width:100%;padding:11px;border:1.5px s
   <!-- SETTINGS -->
   <div id="view-settings" class="hidden">
     <div class="card">
-      <div class="section-label">Courses to watch</div>
+      <div class="section-label"><span>Courses to watch</span><span class="mini" id="selCount"></span></div>
+      <input class="search" id="courseSearch" placeholder="🔍  Filter courses…" autocomplete="off">
       <div id="courses"></div>
+    </div>
 
-      <div class="section-label">When you want to play</div>
+    <div class="card">
+      <div class="section-label"><span>When you want to play</span></div>
       <div class="days" id="days"></div>
       <div class="row" style="border-top:none">
         <div><div class="lab">…within the next</div><div class="hint">how far ahead to look</div></div>
         <div style="display:flex;align-items:center;gap:10px"><input type="range" id="horizon" min="1" max="14"><span class="val" id="horizonV"></span></div>
       </div>
 
-      <div class="section-label">Time of day</div>
+      <div class="section-label" style="margin-top:6px"><span>Time of day</span></div>
       <div class="row" style="border-top:none">
-        <div><div class="lab">Earliest</div></div>
+        <div class="lab">Earliest</div>
         <div style="display:flex;align-items:center;gap:10px"><input type="range" id="early" min="5" max="12" step="0.5"><span class="val" id="earlyV"></span></div>
       </div>
       <div class="row">
-        <div><div class="lab">Latest</div></div>
+        <div class="lab">Latest</div>
         <div style="display:flex;align-items:center;gap:10px"><input type="range" id="late" min="9" max="20" step="0.5"><span class="val" id="lateV"></span></div>
       </div>
 
-      <div class="section-label">Filters</div>
+      <div class="section-label" style="margin-top:6px"><span>Filters</span></div>
       <div class="row" style="border-top:none">
         <div class="lab">Holes</div>
         <div class="seg" id="holes"><button data-v="18">18</button><button data-v="9">9</button><button data-v="any">Any</button></div>
       </div>
       <div class="row">
-        <div><div class="lab">Min open spots</div></div>
+        <div class="lab">Min open spots</div>
         <div class="seg" id="players"><button data-v="1">1+</button><button data-v="2">2+</button><button data-v="3">3+</button><button data-v="4">4</button></div>
       </div>
       <div class="row">
@@ -131,11 +143,12 @@ input[type=password],input[type=text].tok{width:100%;padding:11px;border:1.5px s
       <div id="connectBox">
         <p class="note" style="text-align:left;margin:0 0 6px">To save settings, the app needs a one-time GitHub access key (kept only on this device).
           <span class="link" id="howto">How do I get one?</span></p>
+        <p class="note" style="text-align:left;margin:0 0 4px;color:#8a6d3b">📱 If you opened this from your home screen and it forgot your key, just paste it once more here — the home-screen app keeps its own copy.</p>
         <input type="password" class="tok" id="token" placeholder="Paste your GitHub token here" autocomplete="off">
         <button class="save" id="connectBtn" style="margin-top:8px">Connect</button>
       </div>
       <button class="save" id="saveBtn" disabled>Save changes</button>
-      <div class="note">Saved changes take effect within a minute — Looper re-checks automatically.</div>
+      <div class="note">Saved changes take effect within a couple minutes — LI Links re-checks automatically.</div>
     </div>
   </div>
 </div>
@@ -143,52 +156,24 @@ input[type=password],input[type=text].tok{width:100%;padding:11px;border:1.5px s
 
 <script>
 const OWNER="acapobianco9", REPO="looper";
-const ICON=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<defs>
-<linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1eae55"/><stop offset="100%" stop-color="#127a3a"/></linearGradient>
-<radialGradient id="ball" cx="37%" cy="30%" r="78%"><stop offset="0%" stop-color="#fff"/><stop offset="68%" stop-color="#f4f7f3"/><stop offset="100%" stop-color="#d5dfd5"/></radialGradient>
-<radialGradient id="cup" cx="50%" cy="32%" r="72%"><stop offset="0%" stop-color="#06170d"/><stop offset="100%" stop-color="#0c2c17"/></radialGradient>
-<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#04110a" flood-opacity="0.30"/></filter>
-</defs>
-<rect width="512" height="512" rx="112" fill="url(#tile)"/>
-<ellipse cx="256" cy="430" rx="150" ry="26" fill="#0c5e2c" opacity="0.45"/>
-<path d="M 118.1 278.0 A 77.9 77.9 0 0 0 118.1 322.0" fill="none" stroke="#eafff0" stroke-width="6" stroke-linecap="round" opacity="0.50"/>
-<path d="M 98.3 283.0 A 97.7 97.7 0 0 0 98.3 317.0" fill="none" stroke="#eafff0" stroke-width="5" stroke-linecap="round" opacity="0.37"/>
-<path d="M 78.5 288.0 A 117.5 117.5 0 0 0 78.5 312.0" fill="none" stroke="#eafff0" stroke-width="4" stroke-linecap="round" opacity="0.24"/>
-<ellipse cx="330" cy="300" rx="67.3" ry="60.6" fill="#0a2413"/>
-<ellipse cx="330" cy="300" rx="48.5" ry="43.1" fill="url(#cup)"/>
-<ellipse cx="330" cy="290.6" rx="48.5" ry="20.2" fill="#000" opacity="0.32"/>
-<line x1="330" y1="286.5" x2="330" y2="104.8" stroke="#eafff0" stroke-width="9" stroke-linecap="round"/>
-<path d="M 330 107.8 L 408.0 131.8 L 330 155.8 Z" fill="#ff6a3d"/>
-<g filter="url(#soft)"><circle cx="196" cy="300" r="66" fill="url(#ball)"/>
-<circle cx="196.0" cy="300.0" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-<circle cx="220.0" cy="313.9" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-<circle cx="196.0" cy="327.7" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-<circle cx="172.0" cy="313.9" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-<circle cx="172.0" cy="286.1" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-<circle cx="196.0" cy="272.3" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-<circle cx="220.0" cy="286.1" r="5.3" fill="#d3ddd3" opacity="0.9"/>
-</g></svg>`;
+const ICON=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#22b15a"/><stop offset="100%" stop-color="#0f7a37"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#dfe7e0"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#062915" flood-opacity="0.30"/></filter></defs><!-- full-bleed green (no transparency / no rounded corners; iOS masks it) --><rect width="512" height="512" fill="url(#bg)"/><!-- subtle top sheen --><ellipse cx="256" cy="70" rx="300" ry="120" fill="#ffffff" opacity="0.06"/><g filter="url(#sh)"><!-- ===== L = golf club (iron): vertical shaft + angled head as the foot ===== --><!-- shaft --><rect x="150" y="120" width="30" height="212" rx="15" fill="url(#metal)"/><!-- hosel/neck into head --><path d="M150 300 q-4 34 22 44 l96 34 q20 7 26 -12 l6 -18 q6 -19 -14 -26 l-96 -34 q-24 -8 -20 -32 z"
+          fill="url(#metal)"/><!-- club face lines --><g stroke="#b9c6bd" stroke-width="3" opacity="0.8"><line x1="196" y1="342" x2="270" y2="368"/><line x1="200" y1="330" x2="274" y2="356"/></g><!-- grip cap --><rect x="150" y="120" width="30" height="34" rx="15" fill="#0e5f2c"/><!-- ===== I = flagstick: vertical pole with a pennant ===== --><!-- pole --><rect x="332" y="120" width="22" height="256" rx="11" fill="url(#metal)"/><!-- I serifs (top &amp; bottom) --><rect x="316" y="120" width="54" height="16" rx="8" fill="url(#metal)"/><rect x="308" y="360" width="70" height="18" rx="9" fill="url(#metal)"/><!-- flag pennant --><path d="M354 132 L432 158 L354 184 Z" fill="#ff6a3d"/></g><!-- ground dimple / ball --><circle cx="330" cy="404" r="12" fill="#ffffff" opacity="0.95"/></svg>`;
 document.getElementById('logo').innerHTML=ICON;
-const DAYS=[["S",6,"Sun"],["M",0,"Mon"],["T",1,"Tue"],["W",2,"Wed"],["T",3,"Thu"],["F",4,"Fri"],["S",5,"Sat"]];
+const DAYS=[["S",6],["M",0],["T",1],["W",2],["T",3],["F",4],["S",5]];
 let STATE=null, sel={courses:new Set(),days:new Set(),holes:"18",players:1,horizon:7,early:6,late:12,price:0};
-
 const $=id=>document.getElementById(id);
-function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3200);}
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3400);}
 function fmtTime(h){let hh=Math.floor(h),mm=(h%1)?"30":"00",ap=hh>=12?"p":"a",d=hh%12||12;return `${d}:${mm}${ap}`;}
 function ago(iso){try{const s=(Date.now()-new Date(iso))/1000;if(s<90)return"just now";if(s<3600)return Math.round(s/60)+" min ago";if(s<86400)return Math.round(s/3600)+" hr ago";return Math.round(s/86400)+" d ago";}catch(e){return"";}}
 
-// tabs
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
   const v=t.dataset.tab;$('view-open').classList.toggle('hidden',v!=='open');$('view-settings').classList.toggle('hidden',v!=='settings');
 });
 
 async function load(){
-  try{
-    const r=await fetch('./state.json?t='+Date.now(),{cache:'no-store'});
-    STATE=await r.json();
-  }catch(e){$('updated').textContent='Could not load data yet';return;}
+  try{const r=await fetch('./state.json?t='+Date.now(),{cache:'no-store'});STATE=await r.json();}
+  catch(e){$('updated').textContent='Could not load data yet';return;}
   renderOpen();renderSettings();
 }
 function renderOpen(){
@@ -196,11 +181,11 @@ function renderOpen(){
   const open=STATE.open||[];
   $('count').textContent=open.length?`${open.length} open slot${open.length>1?'s':''} match your filters`:'';
   const box=$('openlist');box.innerHTML='';
-  if(!open.length){box.innerHTML=`<div class="empty"><div class="big">🏌️</div>Nothing open right now that matches your filters.<br>Looper will buzz your phone the moment something opens.</div>`;return;}
+  if(!open.length){box.innerHTML=`<div class="empty"><div class="big">🏌️</div>Nothing open right now that matches your filters.<br>LI Links will buzz your phone the moment something opens.</div>`;return;}
   const groups={};open.forEach(o=>{(groups[o.course+'||'+o.date]=groups[o.course+'||'+o.date]||[]).push(o);});
   Object.keys(groups).forEach(k=>{
-    const slots=groups[k];const first=slots[0];
-    const d=new Date(first.when);const day=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+    const slots=groups[k],first=slots[0];
+    const day=new Date(first.when).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     const g=document.createElement('div');g.className='grp';g.innerHTML=`${first.course} <span class="badge">${day}</span>`;box.appendChild(g);
     slots.forEach(s=>{
       const el=document.createElement('div');el.className='slot';
@@ -210,30 +195,55 @@ function renderOpen(){
     });
   });
 }
+
 function renderSettings(){
   const s=STATE.settings;
-  // courses
   sel.courses=new Set(s.courses);
-  const cc=$('courses');cc.innerHTML='';
-  (STATE.catalog||[]).forEach(c=>{
-    const el=document.createElement('div');el.className='chip'+(sel.courses.has(c.key)?' on':'');el.textContent=c.name;
-    el.onclick=()=>{sel.courses.has(c.key)?sel.courses.delete(c.key):sel.courses.add(c.key);el.classList.toggle('on');};
-    cc.appendChild(el);
-  });
-  // days
+  buildCourses();
   sel.days=new Set(s.weekdays);
   const db=$('days');db.innerHTML='';
   DAYS.forEach(([lab,idx])=>{const el=document.createElement('button');el.className='day'+(sel.days.has(idx)?' on':'');el.textContent=lab;
     el.onclick=()=>{sel.days.has(idx)?sel.days.delete(idx):sel.days.add(idx);el.classList.toggle('on');};db.appendChild(el);});
-  // sliders
   sel.horizon=s.horizon_days;$('horizon').value=s.horizon_days;$('horizonV').textContent=s.horizon_days+' day'+(s.horizon_days>1?'s':'');
   sel.early=hm(s.earliest);$('early').value=sel.early;$('earlyV').textContent=fmtTime(sel.early);
   sel.late=hm(s.latest);$('late').value=sel.late;$('lateV').textContent=fmtTime(sel.late);
   sel.price=s.max_price||0;$('price').value=sel.price;$('priceV').textContent=sel.price?('$'+sel.price):'Any';
-  // segments
   sel.holes=s.holes==null?'any':String(s.holes);segSet('holes',sel.holes);
   sel.players=s.players_min||1;segSet('players',String(sel.players));
+  updateSelCount();
 }
+function updateSelCount(){$('selCount').textContent=sel.courses.size+' selected';}
+function buildCourses(){
+  const cc=$('courses');cc.innerHTML='';
+  const cat=STATE.catalog||[];
+  const order=STATE.region_order||[...new Set(cat.map(c=>c.region))];
+  const q=($('courseSearch').value||'').toLowerCase().trim();
+  order.forEach(region=>{
+    const inRegion=cat.filter(c=>c.region===region && (!q || c.name.toLowerCase().includes(q)));
+    if(!inRegion.length) return;
+    const selectable=inRegion.filter(c=>!c.login);
+    const head=document.createElement('div');head.className='grouphead';
+    head.innerHTML=`<div><span class="gname">${region}</span><span class="gcount">${inRegion.length}</span></div>`;
+    if(selectable.length){
+      const allOn=selectable.every(c=>sel.courses.has(c.key));
+      const btn=document.createElement('button');btn.className='gtoggle';btn.textContent=allOn?'Clear':'Select all';
+      btn.onclick=()=>{const turnOn=!selectable.every(c=>sel.courses.has(c.key));selectable.forEach(c=>{turnOn?sel.courses.add(c.key):sel.courses.delete(c.key);});buildCourses();updateSelCount();};
+      head.appendChild(btn);
+    }
+    cc.appendChild(head);
+    const box=document.createElement('div');box.className='chips';
+    inRegion.forEach(c=>{
+      const el=document.createElement('div');
+      if(c.login){el.className='chip locked';el.innerHTML=`<span class="lock">🔒</span>${c.name}`;
+        el.onclick=()=>toast(c.name+' needs your Nassau Leisure Pass login — ask to set it up.');}
+      else{el.className='chip'+(sel.courses.has(c.key)?' on':'');el.textContent=c.name;
+        el.onclick=()=>{sel.courses.has(c.key)?sel.courses.delete(c.key):sel.courses.add(c.key);el.classList.toggle('on');updateSelCount();};}
+      box.appendChild(el);
+    });
+    cc.appendChild(box);
+  });
+}
+$('courseSearch').oninput=buildCourses;
 function hm(str){const[a,b]=str.split(':').map(Number);return a+(b>=30?0.5:0);}
 function segSet(id,v){document.querySelectorAll('#'+id+' button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));}
 function segInit(id,key,parse){document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{segSet(id,b.dataset.v);sel[key]=parse?parse(b.dataset.v):b.dataset.v;});}
@@ -241,13 +251,12 @@ segInit('holes','holes');segInit('players','players',v=>+v);
 function slider(id,key,fmt){$(id).oninput=()=>{sel[key]=+$(id).value;$(id+'V').textContent=fmt(+$(id).value);};}
 slider('horizon','horizon',v=>v+' day'+(v>1?'s':''));slider('early','early',fmtTime);slider('late','late',fmtTime);slider('price','price',v=>v?('$'+v):'Any');
 
-// ---- YAML build ----
 function pad(n){return (n<10?'0':'')+n;}
 function toHHMM(h){return pad(Math.floor(h))+':'+((h%1)?'30':'00');}
 function buildYaml(){
-  const nmeta={6:'Sun',0:'Mon',1:'Tue',2:'Wed',3:'Thu',4:'Fri',5:'Sat'};
-  const days=[...sel.days].sort((a,b)=>a-b).map(d=>nmeta[d]);
-  const courses=(STATE.catalog||[]).map(c=>c.key).filter(k=>sel.courses.has(k)); // keep catalog order
+  const nm={6:'Sun',0:'Mon',1:'Tue',2:'Wed',3:'Thu',4:'Fri',5:'Sat'};
+  const days=[...sel.days].sort((a,b)=>a-b).map(d=>nm[d]);
+  const courses=(STATE.catalog||[]).map(c=>c.key).filter(k=>sel.courses.has(k));
   let y="# LI Links config — edited from the dashboard\ncourses:\n";
   courses.forEach(c=>y+="  - "+c+"\n");
   y+="\ndates: []\nweekdays: ["+days.join(", ")+"]\nhorizon_days: "+sel.horizon+"\n\n";
@@ -260,12 +269,11 @@ function buildYaml(){
   return y;
 }
 
-// ---- GitHub connect + save ----
 function b64utf8(str){return btoa(unescape(encodeURIComponent(str)));}
-function token(){return localStorage.getItem('looper_gh_token')||'';}
+function token(){return localStorage.getItem('lilinks_gh_token')||localStorage.getItem('looper_gh_token')||'';}
 function setConn(ok){$('condot').classList.toggle('ok',ok);$('constatus').textContent=ok?'Connected — you can save changes':'Not connected — connect once to save changes';$('connectBox').classList.toggle('hidden',ok);$('saveBtn').disabled=!ok;}
-$('howto').onclick=()=>{window.open('https://github.com/settings/personal-access-tokens/new','_blank');toast('Create a fine-grained token with Contents: Read and write on the "looper" repo, then paste it here.');};
-$('connectBtn').onclick=()=>{const t=$('token').value.trim();if(!t){toast('Paste your token first');return;}localStorage.setItem('looper_gh_token',t);$('token').value='';setConn(true);toast('Connected ✓');};
+$('howto').onclick=()=>{window.open('https://github.com/settings/personal-access-tokens/new','_blank');toast('Make a fine-grained token with Contents: Read and write on the "looper" repo, then paste it here.');};
+$('connectBtn').onclick=()=>{const t=$('token').value.trim();if(!t){toast('Paste your token first');return;}localStorage.setItem('lilinks_gh_token',t);$('token').value='';setConn(true);toast('Connected ✓');};
 async function save(){
   const t=token();if(!t){toast('Connect first');return;}
   if(!sel.courses.size){toast('Pick at least one course');return;}
@@ -281,14 +289,12 @@ async function save(){
     if(sha)body.sha=sha;
     const p=await fetch(api,{method:'PUT',headers,body:JSON.stringify(body)});
     if(!p.ok){const e=await p.json().catch(()=>({}));throw new Error(e.message||('Save failed ('+p.status+')'));}
-    toast('Saved ✓ Looper will refresh within a minute');
-  }catch(e){toast(e.message||'Save failed');if(/token/.test(e.message||'')){localStorage.removeItem('looper_gh_token');setConn(false);}}
+    toast('Saved ✓ LI Links will refresh within a couple minutes');
+  }catch(e){toast(e.message||'Save failed');if(/token/i.test(e.message||'')){localStorage.removeItem('lilinks_gh_token');localStorage.removeItem('looper_gh_token');setConn(false);}}
   $('saveBtn').disabled=false;$('saveBtn').textContent='Save changes';
 }
-$('saveBtn').onclick=save;
-$('refresh').onclick=load;
+$('saveBtn').onclick=save;$('refresh').onclick=load;
 setConn(!!token());
-load();
-setInterval(load,120000);
+load();setInterval(load,120000);
 </script>
 </body></html>

@@ -67,10 +67,10 @@ CATALOG: dict[str, dict] = {
         "booking_url": "https://foreupsoftware.com/index.php/booking/20290/3782#teetimes"},
 
     "smithtown_landing": {"name": "Smithtown Landing Country Club", "provider": "teeitup",
-        "alias": "smithtown-landing-country-club", "facility_id": None,
+        "alias": "smithtown-landing-country-club", "facility_id": 4762,
         "booking_url": "https://smithtown-landing-country-club.book.teeitup.com"},
     "stonebridge": {"name": "Stonebridge Golf Links & CC (Smithtown)", "provider": "teeitup",
-        "alias": "stonebridge-golf-links-and-country-club", "tld": "golf", "facility_id": None,
+        "alias": "stonebridge-golf-links-and-country-club", "tld": "golf", "facility_id": 4766,
         "booking_url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"},
     "middle_island": {"name": "Middle Island Country Club", "provider": "teeitup",
         "alias": "middle-island-country-club", "tld": "golf", "facility_id": None,
@@ -82,7 +82,7 @@ CATALOG: dict[str, dict] = {
         "alias": "the-woods-at-cherry-creek", "tld": "golf", "facility_id": None,
         "booking_url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"},
     "bergen_point": {"name": "Bergen Point Golf Course (Babylon)", "provider": "teeitup",
-        "alias": "bergen-point-golf-course", "tld": "golf", "facility_id": None,
+        "alias": "bergen-point-golf-course", "tld": "golf", "facility_id": 15972,
         "booking_url": "https://bergen-point-golf-course.book.teeitup.golf/"},
     "poxabogue": {"name": "Poxabogue Golf Center (Sagaponack)", "provider": "teeitup",
         "alias": "poxabogue-golf-center", "facility_id": None,
@@ -239,7 +239,8 @@ def fetch_foreup(session, key, course, day, override, debug=False):
     return out
 
 
-_FID_PATS = [re.compile(r'[?&]course=(\d+)'), re.compile(r'"facilityId"\s*:\s*(\d+)'),
+_FID_PATS = [re.compile(r'(?:gCPlayFacilityId|golfFacilityId|gnFacilityIds)[^0-9]{0,10}(\d+)'),
+             re.compile(r'[?&]course=(\d+)'), re.compile(r'"facilityId"\s*:\s*(\d+)'),
              re.compile(r'"facility"\s*:\s*{[^}]*?"id"\s*:\s*(\d+)'),
              re.compile(r'"facilityIds?"\s*:\s*\[?\s*(\d+)')]
 
@@ -306,36 +307,40 @@ def fetch_teeitup(session, key, course, day, override, debug=False):
         data = r.json()
     except ValueError:
         return []
-    if isinstance(data, dict):
-        for k in ("teeTimes", "tee_times", "times", "data", "results"):
-            if isinstance(data.get(k), list):
-                data = data[k]; break
-        else:
-            data = []
+    # Response is a list of day/course GROUPS, each holding a "teetimes" array.
+    groups = data if isinstance(data, list) else [data]
     out = []
-    for row in data:
-        when = iso_to_local(row.get("time") or row.get("teetime") or row.get("teeTime"))
-        if not when:
-            continue
-        cname = row.get("courseName") or row.get("course_name") or course["name"]
-        rates = row.get("rates") or row.get("teeTimeRates") or []
-        by_holes: dict = {}
-        if rates:
+    for group in groups:
+        tts = group.get("teetimes") or group.get("teeTimes") or group.get("times")
+        if not tts:
+            tts = [group] if (group.get("teetime") or group.get("time") or group.get("rates")) else []
+        cname = group.get("courseName") or group.get("course_name") or course["name"]
+        for tt in tts:
+            when = iso_to_local(tt.get("teetime") or tt.get("time") or tt.get("teeTime"))
+            if not when:
+                continue
+            spots = as_int(tt.get("maxPlayers"))   # open spots remaining in this slot
+            rates = tt.get("rates") or tt.get("teeTimeRates") or []
+            by_holes: dict = {}
             for rate in rates:
                 h = as_int(rate.get("holes"))
-                price = as_num(rate.get("greenFeeWalking"), rate.get("price"),
-                               rate.get("greenFee"), rate.get("rate"))
-                pl = _players_from_rate(rate, row)
-                by_holes.setdefault(h, []).append((price, pl))
-        else:
-            by_holes[as_int(row.get("holes"))] = [(as_num(row.get("price")), as_int(row.get("maxPlayers")))]
-        for h, entries in by_holes.items():
-            prices = [p for p, _ in entries if p is not None]
-            players = [pl for _, pl in entries if pl is not None]
-            out.append(TeeTime(key, str(cname), when, h,
-                               max(players) if players else None,
-                               min(prices) if prices else None,
-                               course.get("booking_url", ""), row))
+                gfw = as_num(rate.get("greenFeeWalking"))
+                if gfw is not None:                # kenna fees are in cents
+                    price = round(gfw / 100.0, 2)
+                else:
+                    price = as_num(rate.get("greenFee"), rate.get("price"), rate.get("rate"))
+                if not h:                          # fall back to allowedPlayers-implied holes tag
+                    for tag in (rate.get("tags") or []):
+                        if str(tag) in ("9", "18"):
+                            h = int(tag); break
+                by_holes.setdefault(h, []).append(price)
+            if not by_holes:
+                by_holes[None] = [None]
+            for h, prices in by_holes.items():
+                valid = [p for p in prices if p is not None]
+                out.append(TeeTime(key, str(cname), when, h, spots,
+                                   min(valid) if valid else None,
+                                   course.get("booking_url", ""), tt))
     return out
 
 
@@ -647,6 +652,20 @@ def collect(cfg, debug=False):
             _time.sleep(0.7)
     return all_times
 
+REGION = {
+    "bethpage": "State Parks", "montauk_downs": "State Parks", "sunken_meadow": "State Parks",
+    "crab_meadow": "Suffolk — Town & Public", "gull_haven": "Suffolk — Town & Public",
+    "holbrook": "Suffolk — Town & Public", "bergen_point": "Suffolk — Town & Public",
+    "smithtown_landing": "Suffolk — Town & Public", "timber_point": "Suffolk — Town & Public",
+    "rock_hill": "Suffolk — Semi-Private", "tall_grass": "Suffolk — Semi-Private",
+    "stonebridge": "Suffolk — Semi-Private", "middle_island": "Suffolk — Semi-Private",
+    "swan_lake": "Suffolk — Semi-Private", "hamlet_wind_watch": "Suffolk — Semi-Private",
+    "cherry_creek": "East End", "great_rock": "East End", "poxabogue": "East End",
+    "peninsula": "Nassau County", "nassau_eisenhower": "Nassau County", "nassau_cantiague": "Nassau County",
+}
+REGION_ORDER = ["State Parks", "Suffolk — Town & Public", "Suffolk — Semi-Private", "East End", "Nassau County"]
+
+
 def write_state(times, cfg, path="state.json"):
     """Publish machine-readable state for the dashboard app: the current open
     slots, the active settings, and the full course catalog."""
@@ -656,8 +675,10 @@ def write_state(times, cfg, path="state.json"):
         "time": t.time_str, "when": t.when.isoformat(), "holes": t.holes,
         "players": t.players, "price": t.price, "url": t.booking_url,
     } for t in ordered]
-    catalog = [{"key": k, "name": c["name"], "provider": c["provider"]}
-               for k, c in CATALOG.items() if c["provider"] != "nassau"]
+    catalog = [{"key": k, "name": c["name"], "provider": c["provider"],
+                "region": REGION.get(k, "Other Long Island"),
+                "login": c["provider"] == "nassau"}
+               for k, c in CATALOG.items()]
     settings = {
         "courses": cfg.courses, "weekdays": cfg.weekdays, "horizon_days": cfg.horizon_days,
         "earliest": cfg.earliest.strftime("%H:%M"), "latest": cfg.latest.strftime("%H:%M"),
@@ -667,7 +688,8 @@ def write_state(times, cfg, path="state.json"):
                    "priority": cfg.notify.get("priority", "high")},
     }
     data = {"updated": datetime.now(NY).isoformat(), "count": len(open_list),
-            "settings": settings, "open": open_list, "catalog": catalog}
+            "settings": settings, "open": open_list, "catalog": catalog,
+            "region_order": REGION_ORDER}
     try:
         Path(path).write_text(json.dumps(data, indent=2))
     except OSError:
