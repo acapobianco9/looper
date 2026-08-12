@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T06:32:05.172848-04:00",
-  "count": 6,
+  "updated": "2026-08-12T07:06:18.513249-04:00",
+  "count": 15,
   "settings": {
     "courses": [
       "bethpage",
@@ -32,7 +32,7 @@
     "earliest": "06:00",
     "latest": "12:00",
     "holes": 18,
-    "players_min": 2,
+    "players_min": 1,
     "max_price": null,
     "notify": {
       "backend": "ntfy",
@@ -51,6 +51,39 @@
       "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-13",
+      "time": "10:20a",
+      "when": "2026-08-13T10:20:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-13",
+      "time": "10:30a",
+      "when": "2026-08-13T10:30:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-08-13",
+      "time": "11:03a",
+      "when": "2026-08-13T11:03:00",
+      "holes": 18,
+      "players": 2,
+      "price": 28.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "holbrook",
@@ -106,6 +139,72 @@
       "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-14",
+      "time": "11:10a",
+      "when": "2026-08-14T11:10:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "6:00a",
+      "when": "2026-08-15T06:00:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "6:20a",
+      "when": "2026-08-15T06:20:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "7:00a",
+      "when": "2026-08-15T07:00:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "9:40a",
+      "when": "2026-08-15T09:40:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-15",
+      "time": "10:30a",
+      "when": "2026-08-15T10:30:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     }
   ],
   "catalog": [
