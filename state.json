@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T16:02:41.009308-04:00",
-  "count": 43,
+  "updated": "2026-08-12T18:26:06.396446-04:00",
+  "count": 39,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,17 +42,6 @@
     }
   },
   "open": [
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-15",
-      "time": "11:12a",
-      "when": "2026-08-15T11:12:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
@@ -189,17 +178,6 @@
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-16",
-      "time": "8:24a",
-      "when": "2026-08-16T08:24:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-16",
       "time": "8:32a",
       "when": "2026-08-16T08:32:00",
       "holes": 18,
@@ -294,28 +272,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-16",
-      "time": "10:30a",
-      "when": "2026-08-16T10:30:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-16",
-      "time": "10:40a",
-      "when": "2026-08-16T10:40:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
