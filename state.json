@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T05:49:12.452241-04:00",
-  "count": 5,
+  "updated": "2026-08-12T06:03:08.593918-04:00",
+  "count": 0,
   "settings": {
     "courses": [
       "bethpage",
@@ -14,8 +14,8 @@
       "smithtown_landing",
       "stonebridge",
       "middle_island",
-      "cherry_creek",
       "great_rock",
+      "cherry_creek",
       "bergen_point",
       "poxabogue",
       "peninsula",
@@ -26,11 +26,11 @@
       5,
       6
     ],
-    "horizon_days": 7,
+    "horizon_days": 14,
     "earliest": "06:00",
     "latest": "12:00",
     "holes": 18,
-    "players_min": 1,
+    "players_min": 2,
     "max_price": null,
     "notify": {
       "backend": "ntfy",
@@ -38,63 +38,7 @@
       "priority": "high"
     }
   },
-  "open": [
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
-      "time": "6:00a",
-      "when": "2026-08-15T06:00:00",
-      "holes": 18,
-      "players": 1,
-      "price": 0.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
-      "time": "6:20a",
-      "when": "2026-08-15T06:20:00",
-      "holes": 18,
-      "players": 1,
-      "price": 0.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
-      "time": "7:00a",
-      "when": "2026-08-15T07:00:00",
-      "holes": 18,
-      "players": 1,
-      "price": 0.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
-      "time": "9:40a",
-      "when": "2026-08-15T09:40:00",
-      "holes": 18,
-      "players": 1,
-      "price": 0.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
-      "time": "10:30a",
-      "when": "2026-08-15T10:30:00",
-      "holes": 18,
-      "players": 1,
-      "price": 0.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    }
-  ],
+  "open": [],
   "catalog": [
     {
       "key": "bethpage",
