@@ -230,9 +230,12 @@ def fetch_foreup(session, key, course, day, override, debug=False):
         when = foreup_dt(row.get("time"))
         if not when:
             continue
+        price = as_num(row.get("green_fee"))
+        if price is not None and price <= 0:   # some feeds return 0 when the fee isn't published
+            price = None
         out.append(TeeTime(key, str(row.get("course_name") or row.get("schedule") or course["name"]),
                            when, as_int(row.get("holes")), as_int(row.get("available_spots")),
-                           as_num(row.get("green_fee")), course.get("booking_url", ""), row))
+                           price, course.get("booking_url", ""), row))
     return out
 
 
