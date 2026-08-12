@@ -34,5 +34,5 @@ filters:
 
 notify:
   backend: ntfy
-  topic: "amg-looper-e2525e2fbf26"
+  topic: "li-links-d8dd531d4d2597ca"
   priority: high
