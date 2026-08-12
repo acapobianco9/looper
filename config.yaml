@@ -1,25 +1,21 @@
-# Looper config - Anthony (AMG) - Long Island
+# LI Links config — edited from the dashboard
 courses:
-  # State parks
   - bethpage
   - montauk_downs
   - sunken_meadow
-  # Town / semi-private (ForeUp)
   - rock_hill
   - crab_meadow
   - gull_haven
   - holbrook
   - tall_grass
-  # TeeItUp / GolfNow
   - smithtown_landing
   - stonebridge
   - middle_island
-  - cherry_creek
   - great_rock
+  - cherry_creek
   - bergen_point
   - poxabogue
   - peninsula
-  # Chronogolf
   - swan_lake
   - hamlet_wind_watch
 
