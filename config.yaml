@@ -29,7 +29,7 @@ time_window:
 
 filters:
   holes: 18
-  players_min: 2
+  players_min: 1
   max_price:
 
 notify:
