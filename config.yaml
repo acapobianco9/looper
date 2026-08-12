@@ -1,0 +1,25 @@
+# Looper config — Anthony (AMG)
+courses:
+  - bethpage
+  - montauk_downs
+  - smithtown_landing
+  - stonebridge
+  - middle_island
+
+dates: []
+weekdays: [Sat, Sun]
+horizon_days: 7
+
+time_window:
+  earliest: "06:00"
+  latest:   "11:30"
+
+filters:
+  holes: 18
+  players_min: 2
+  max_price:
+
+notify:
+  backend: ntfy
+  topic: "amg-looper-e2525e2fbf26"
+  priority: high

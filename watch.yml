@@ -1,0 +1,55 @@
+name: watch-tee-times
+
+# Free always-on runner. GitHub runs this on a schedule, checks your courses,
+# pushes alerts for new times, and commits the updated seen.json so you don't
+# get re-alerted for the same slot.
+#
+# SETUP (one time):
+#   1. Push this repo to GitHub (private is fine).
+#   2. Repo → Settings → Secrets and variables → Actions → New repository secret:
+#        NTFY_TOPIC  = your secret ntfy topic string (same one in the phone app)
+#   3. Repo → Settings → Actions → General → Workflow permissions →
+#        enable "Read and write permissions" (so it can commit seen.json).
+#   4. Edit config.yaml, commit, done. Alerts start on the next scheduled run.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes (GitHub's practical minimum is 5)
+  workflow_dispatch: {}       # lets you run it manually from the Actions tab
+
+concurrency:
+  group: watch-tee-times
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Check for tee times
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          # If you use Pushover instead, add these secrets and uncomment:
+          # PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          # PUSHOVER_USER:  ${{ secrets.PUSHOVER_USER }}
+        run: python run.py run
+
+      - name: Persist seen.json
+        run: |
+          if [[ -n "$(git status --porcelain seen.json)" ]]; then
+            git config user.name  "tee-time-watcher"
+            git config user.email "actions@users.noreply.github.com"
+            git add seen.json
+            git commit -m "update seen tee times [skip ci]"
+            git push
+          else
+            echo "no state change"
+          fi
