@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T10:04:53.315019-04:00",
+  "updated": "2026-08-12T10:10:32.899123-04:00",
   "count": 94,
   "settings": {
     "courses": [
@@ -20,7 +20,10 @@
       "poxabogue",
       "peninsula",
       "swan_lake",
-      "hamlet_wind_watch"
+      "hamlet_wind_watch",
+      "timber_point",
+      "west_sayville",
+      "indian_island"
     ],
     "weekdays": [
       3,
