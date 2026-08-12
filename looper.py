@@ -646,12 +646,20 @@ def collect(cfg, debug=False):
 
 def run_once(cfg, seen_path="seen.json", debug=False):
     times = collect(cfg, debug)
+    first_run = not Path(seen_path).exists()
     seen = load_seen(seen_path)
     new = [t for t in times if t.uid not in seen]
     for t in new:
         seen[t.uid] = t.when.date().isoformat()
     save_seen(seen_path, seen)
-    print(f"[run] {len(times)} matching, {len(new)} new")
+    print(f"[run] {len(times)} matching, {len(new)} new{' (first run: primed, no per-slot alerts)' if first_run else ''}")
+    if first_run:
+        # Prime the baseline quietly; send ONE friendly summary instead of spamming.
+        notify_text(cfg.notify, "⛳ Looper is live!",
+                    f"Watching {len(cfg.courses)} Long Island courses for your tee-time dates. "
+                    f"{len(times)} open slot(s) match your filters right now — from here I'll only "
+                    f"ping you when NEW times open up. Good luck out there.")
+        return []
     if new:
         notify_new(cfg.notify, new)
     return new
