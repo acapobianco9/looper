@@ -37,6 +37,10 @@ NY = ZoneInfo("America/New_York")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 
+# Suffolk County (Vermont Systems WebTrac) endpoints
+WEBTRAC_BASE = "https://nysuffolkctyweb.myvscloud.com/webtrac/web"
+WEBTRAC_SEARCH_PAGE = WEBTRAC_BASE + "/search.html?module=GR"
+
 # ============================================================ catalog
 CATALOG: dict[str, dict] = {
     # --- ForeUp (public booking classes verified live) ---
@@ -98,6 +102,16 @@ CATALOG: dict[str, dict] = {
     "hamlet_wind_watch": {"name": "Hamlet Wind Watch Golf Club (Hauppauge)", "provider": "chronogolf",
         "course_uuid": "a9a988d0-a742-4f9e-9d8f-4fabd95b4e0a",
         "booking_url": "https://www.chronogolf.com/club/hamlet-wind-watch-golf-club"},
+
+    # --- Suffolk County (Vermont Systems WebTrac) ---
+    "timber_point": {"name": "Timber Point Golf Course (Great River)", "provider": "webtrac",
+        "codes": ["3", "4"], "holes": 18, "booking_url": WEBTRAC_SEARCH_PAGE},
+    "west_sayville": {"name": "West Sayville Golf Course", "provider": "webtrac",
+        "codes": ["6"], "holes": 18, "booking_url": WEBTRAC_SEARCH_PAGE},
+    "indian_island": {"name": "Indian Island Golf Course (Riverhead)", "provider": "webtrac",
+        "codes": ["2"], "holes": 18, "booking_url": WEBTRAC_SEARCH_PAGE},
+    "santapogue_creek": {"name": "Santapogue Creek Golf Course (Babylon)", "provider": "webtrac",
+        "codes": ["1"], "holes": 18, "booking_url": WEBTRAC_SEARCH_PAGE},
 
     "nassau_eisenhower": {"name": "Eisenhower Park (Red / White / Blue)", "provider": "nassau",
         "login_url": "https://golf.nassaucountyny.gov/login", "user_field": "email",
@@ -449,8 +463,91 @@ def fetch_nassau(session, key, course, day, override, debug=False):
     return out
 
 
+# ---- Suffolk County (Vermont Systems WebTrac): Timber Point, West Sayville, etc.
+_WEBTRAC = {"tok": None}
+
+def _webtrac_token(session, force=False):
+    """WebTrac needs a session-bound _csrf_token; grab it from the search page HTML."""
+    if _WEBTRAC["tok"] and not force:
+        return _WEBTRAC["tok"]
+    try:
+        r = session.get(WEBTRAC_BASE + "/search.html",
+                        params={"module": "GR", "display": "Detail"}, timeout=25)
+        m = re.search(r"_csrf_token=([A-Za-z0-9]+)", r.text)
+        _WEBTRAC["tok"] = m.group(1) if m else None
+    except Exception:
+        _WEBTRAC["tok"] = None
+    return _WEBTRAC["tok"]
+
+def _webtrac_search(session, code, day, holes, token):
+    params = {
+        "Action": "Start", "SubAction": "", "_csrf_token": token,
+        "secondarycode": code, "numberofplayers": 1,
+        "begindate": day.strftime("%m/%d/%Y"), "begintime": "05:00 am",
+        "numberofholes": holes, "reservee": "", "display": "Detail",
+        "module": "GR", "multiselectlist_value": "",
+        "grwebsearch_buttonsearch": "yes",
+    }
+    r = session.get(WEBTRAC_BASE + "/search.html", params=params, timeout=25)
+    return r.text if r.status_code == 200 else ""
+
+def _webtrac_parse(html, key, name, day, booking_url):
+    out = []
+    if not html or "did not return any matching results" in html:
+        return out
+    for block in re.split(r"<tr", html, flags=re.I):
+        if "cart-button" not in block and "addtocart" not in block:
+            continue
+        tm = re.search(r"Time</span>\s*([0-9]{1,2}:[0-9]{2}\s*[APap][Mm])", block)
+        dt = re.search(r"Date</span>\s*(\d{2}/\d{2}/\d{4})", block)
+        if not (tm and dt):
+            continue
+        ho = re.search(r"Holes</span>\s*([0-9]+)", block)
+        try:
+            when = datetime.strptime(dt.group(1) + " " + tm.group(1).upper().replace(" ", ""),
+                                     "%m/%d/%Y %I:%M%p")
+        except ValueError:
+            continue
+        if when.date() != day:
+            continue
+        # WebTrac shows availability filtered by party size, not a spot count -> players=None,
+        # price appears only at checkout -> None. We surface every open time (never miss one).
+        out.append(TeeTime(key, name, when, as_int(ho.group(1)) if ho else None,
+                           None, None, booking_url, {}))
+    return out
+
+def fetch_webtrac(session, key, course, day, override, debug=False):
+    codes = course.get("codes") or ([course["code"]] if course.get("code") else [])
+    if not codes:
+        return []
+    holes = course.get("holes", 18)
+    token = _webtrac_token(session)
+    if not token:
+        if debug: print("[webtrac]", key, "no csrf token")
+        return []
+    booking = course.get("booking_url", WEBTRAC_SEARCH_PAGE)
+    merged, seen = [], set()
+    for code in codes:
+        html = _webtrac_search(session, code, day, holes, token)
+        if "did not return any matching results" not in (html or "") and not html:
+            # token may have expired; refresh once and retry this code
+            token = _webtrac_token(session, force=True)
+            html = _webtrac_search(session, code, day, holes, token) if token else ""
+        for t in _webtrac_parse(html, key, course["name"], day, booking):
+            k = t.when.isoformat()
+            if k not in seen:
+                seen.add(k); merged.append(t)
+        if merged:
+            # one 18-hole rotation is active per day; first code with results is enough
+            break
+    if debug:
+        print(f"[webtrac] {key} {day}: {len(merged)} open")
+    return merged
+
+
 PROVIDERS = {"foreup": fetch_foreup, "teeitup": fetch_teeitup,
-             "chronogolf": fetch_chronogolf, "nassau": fetch_nassau}
+             "chronogolf": fetch_chronogolf, "nassau": fetch_nassau,
+             "webtrac": fetch_webtrac}
 
 # ============================================================ notify
 def send_ntfy(cfg, title, body, click):
@@ -657,6 +754,8 @@ REGION = {
     "crab_meadow": "Suffolk — Town & Public", "gull_haven": "Suffolk — Town & Public",
     "holbrook": "Suffolk — Town & Public", "bergen_point": "Suffolk — Town & Public",
     "smithtown_landing": "Suffolk — Town & Public", "timber_point": "Suffolk — Town & Public",
+    "west_sayville": "Suffolk — Town & Public", "santapogue_creek": "Suffolk — Town & Public",
+    "indian_island": "East End",
     "rock_hill": "Suffolk — Semi-Private", "tall_grass": "Suffolk — Semi-Private",
     "stonebridge": "Suffolk — Semi-Private", "middle_island": "Suffolk — Semi-Private",
     "swan_lake": "Suffolk — Semi-Private", "hamlet_wind_watch": "Suffolk — Semi-Private",
