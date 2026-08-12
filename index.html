@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12813d">
+<title>LI Links — tee time watcher</title>
+<style>
+:root{--g1:#1aa24f;--g2:#12813d;--ink:#0e1f14;--paper:#f4f8f5;--card:#fff;--line:#e2ebe3;--muted:#5c6f61;--flag:#e8552d;--chip:#eef5ef}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;padding-bottom:40px;overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding:0 14px}
+header{display:flex;align-items:center;gap:11px;padding:16px 0 10px}
+header .logo{width:44px;height:44px;flex:0 0 44px}
+header h1{font-size:26px;font-weight:800;letter-spacing:-.02em;margin:0}
+header .sub{font-size:12.5px;color:var(--muted);margin-top:1px}
+.tabs{display:flex;gap:8px;position:sticky;top:0;background:var(--paper);padding:8px 0 10px;z-index:5}
+.tab{flex:1;text-align:center;padding:11px;border-radius:12px;background:var(--chip);font-weight:700;font-size:14.5px;cursor:pointer;border:1.5px solid transparent;color:#2c3d31}
+.tab.on{background:var(--g1);color:#fff;box-shadow:0 6px 16px -8px rgba(18,129,61,.7)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:0 10px 26px -22px rgba(14,31,20,.4)}
+.updated{font-size:12.5px;color:var(--muted);display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.refresh{border:none;background:var(--chip);border-radius:9px;padding:6px 11px;font-weight:700;font-size:12.5px;color:var(--g2);cursor:pointer}
+.count{font-family:inherit;font-weight:800;font-size:19px;margin:2px 0 12px}
+.grp{font-weight:800;font-size:15px;margin:16px 0 8px;display:flex;align-items:center;gap:8px}
+.grp .badge{font-size:11px;font-weight:700;background:var(--chip);color:var(--g2);border-radius:999px;padding:2px 8px}
+.slot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:11px;margin-bottom:7px}
+.slot .t{font-weight:800;font-size:15px}
+.slot .d{font-size:12.5px;color:var(--muted);margin-top:1px}
+.book{flex:0 0 auto;text-decoration:none;background:var(--g1);color:#fff;font-weight:700;font-size:13px;border-radius:9px;padding:8px 13px}
+.empty{text-align:center;color:var(--muted);padding:26px 10px;font-size:14.5px}
+.empty .big{font-size:34px;margin-bottom:8px}
+/* settings */
+.section-label{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:18px 0 9px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{border:1.5px solid var(--line);background:var(--chip);color:#2c3d31;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;user-select:none}
+.chip.on{background:var(--g1);border-color:var(--g1);color:#fff}
+.days{display:flex;gap:5px}
+.day{flex:1;height:42px;border-radius:10px;border:1.5px solid var(--line);background:#fff;font-weight:800;font-size:12.5px;cursor:pointer;color:#2c3d31}
+.day.on{background:var(--g1);border-color:var(--g1);color:#fff}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.row:first-child{border-top:none}
+.row .lab{font-weight:600;font-size:14.5px}
+.row .hint{font-size:12px;color:var(--muted)}
+input[type=range]{width:150px;accent-color:var(--g1)}
+.val{font-weight:800;color:var(--g2);font-size:14px;min-width:62px;text-align:right}
+.seg{display:inline-flex;background:var(--chip);border-radius:11px;padding:3px;gap:2px}
+.seg button{border:none;background:transparent;padding:7px 13px;border-radius:8px;font-size:13.5px;font-weight:700;cursor:pointer;color:#2c3d31;font-family:inherit}
+.seg button.on{background:#fff;color:var(--g2);box-shadow:0 1px 4px rgba(14,31,20,.14)}
+.save{width:100%;border:none;background:var(--g1);color:#fff;font-weight:800;font-size:16px;border-radius:13px;padding:15px;cursor:pointer;margin-top:14px;font-family:inherit}
+.save:disabled{opacity:.5}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px;text-align:center}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;font-size:14px;opacity:0;transition:.25s;pointer-events:none;max-width:90%;text-align:center;z-index:20}
+.toast.show{opacity:1}
+.link{color:var(--g2);font-weight:700;text-decoration:underline;cursor:pointer}
+input[type=password],input[type=text].tok{width:100%;padding:11px;border:1.5px solid var(--line);border-radius:10px;font-size:14px;font-family:inherit;margin-top:6px}
+.hidden{display:none}
+.connbar{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);margin-bottom:4px}
+.dot{width:9px;height:9px;border-radius:50%;background:#c2ccc4}.dot.ok{background:var(--g1)}
+</style></head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" id="logo"></div>
+    <div>
+      <h1>LI Links</h1>
+      <div class="sub">Never miss a Long Island tee time.</div>
+    </div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab on" data-tab="open" id="tab-open">Open now</div>
+    <div class="tab" data-tab="settings" id="tab-settings">Settings</div>
+  </div>
+
+  <!-- OPEN NOW -->
+  <div id="view-open">
+    <div class="card">
+      <div class="updated"><span id="updated">Loading…</span><button class="refresh" id="refresh">↻ Refresh</button></div>
+      <div class="count" id="count"></div>
+      <div id="openlist"></div>
+    </div>
+  </div>
+
+  <!-- SETTINGS -->
+  <div id="view-settings" class="hidden">
+    <div class="card">
+      <div class="section-label">Courses to watch</div>
+      <div id="courses"></div>
+
+      <div class="section-label">When you want to play</div>
+      <div class="days" id="days"></div>
+      <div class="row" style="border-top:none">
+        <div><div class="lab">…within the next</div><div class="hint">how far ahead to look</div></div>
+        <div style="display:flex;align-items:center;gap:10px"><input type="range" id="horizon" min="1" max="14"><span class="val" id="horizonV"></span></div>
+      </div>
+
+      <div class="section-label">Time of day</div>
+      <div class="row" style="border-top:none">
+        <div><div class="lab">Earliest</div></div>
+        <div style="display:flex;align-items:center;gap:10px"><input type="range" id="early" min="5" max="12" step="0.5"><span class="val" id="earlyV"></span></div>
+      </div>
+      <div class="row">
+        <div><div class="lab">Latest</div></div>
+        <div style="display:flex;align-items:center;gap:10px"><input type="range" id="late" min="9" max="20" step="0.5"><span class="val" id="lateV"></span></div>
+      </div>
+
+      <div class="section-label">Filters</div>
+      <div class="row" style="border-top:none">
+        <div class="lab">Holes</div>
+        <div class="seg" id="holes"><button data-v="18">18</button><button data-v="9">9</button><button data-v="any">Any</button></div>
+      </div>
+      <div class="row">
+        <div><div class="lab">Min open spots</div></div>
+        <div class="seg" id="players"><button data-v="1">1+</button><button data-v="2">2+</button><button data-v="3">3+</button><button data-v="4">4</button></div>
+      </div>
+      <div class="row">
+        <div><div class="lab">Max price</div><div class="hint">skip pricier times</div></div>
+        <div style="display:flex;align-items:center;gap:10px"><input type="range" id="price" min="0" max="200" step="5"><span class="val" id="priceV"></span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="connbar"><span class="dot" id="condot"></span><span id="constatus">Not connected — connect once to save changes</span></div>
+      <div id="connectBox">
+        <p class="note" style="text-align:left;margin:0 0 6px">To save settings, the app needs a one-time GitHub access key (kept only on this device).
+          <span class="link" id="howto">How do I get one?</span></p>
+        <input type="password" class="tok" id="token" placeholder="Paste your GitHub token here" autocomplete="off">
+        <button class="save" id="connectBtn" style="margin-top:8px">Connect</button>
+      </div>
+      <button class="save" id="saveBtn" disabled>Save changes</button>
+      <div class="note">Saved changes take effect within a minute — Looper re-checks automatically.</div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const OWNER="acapobianco9", REPO="looper";
+const ICON=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1eae55"/><stop offset="100%" stop-color="#127a3a"/></linearGradient>
+<radialGradient id="ball" cx="37%" cy="30%" r="78%"><stop offset="0%" stop-color="#fff"/><stop offset="68%" stop-color="#f4f7f3"/><stop offset="100%" stop-color="#d5dfd5"/></radialGradient>
+<radialGradient id="cup" cx="50%" cy="32%" r="72%"><stop offset="0%" stop-color="#06170d"/><stop offset="100%" stop-color="#0c2c17"/></radialGradient>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#04110a" flood-opacity="0.30"/></filter>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#tile)"/>
+<ellipse cx="256" cy="430" rx="150" ry="26" fill="#0c5e2c" opacity="0.45"/>
+<path d="M 118.1 278.0 A 77.9 77.9 0 0 0 118.1 322.0" fill="none" stroke="#eafff0" stroke-width="6" stroke-linecap="round" opacity="0.50"/>
+<path d="M 98.3 283.0 A 97.7 97.7 0 0 0 98.3 317.0" fill="none" stroke="#eafff0" stroke-width="5" stroke-linecap="round" opacity="0.37"/>
+<path d="M 78.5 288.0 A 117.5 117.5 0 0 0 78.5 312.0" fill="none" stroke="#eafff0" stroke-width="4" stroke-linecap="round" opacity="0.24"/>
+<ellipse cx="330" cy="300" rx="67.3" ry="60.6" fill="#0a2413"/>
+<ellipse cx="330" cy="300" rx="48.5" ry="43.1" fill="url(#cup)"/>
+<ellipse cx="330" cy="290.6" rx="48.5" ry="20.2" fill="#000" opacity="0.32"/>
+<line x1="330" y1="286.5" x2="330" y2="104.8" stroke="#eafff0" stroke-width="9" stroke-linecap="round"/>
+<path d="M 330 107.8 L 408.0 131.8 L 330 155.8 Z" fill="#ff6a3d"/>
+<g filter="url(#soft)"><circle cx="196" cy="300" r="66" fill="url(#ball)"/>
+<circle cx="196.0" cy="300.0" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+<circle cx="220.0" cy="313.9" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+<circle cx="196.0" cy="327.7" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+<circle cx="172.0" cy="313.9" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+<circle cx="172.0" cy="286.1" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+<circle cx="196.0" cy="272.3" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+<circle cx="220.0" cy="286.1" r="5.3" fill="#d3ddd3" opacity="0.9"/>
+</g></svg>`;
+document.getElementById('logo').innerHTML=ICON;
+const DAYS=[["S",6,"Sun"],["M",0,"Mon"],["T",1,"Tue"],["W",2,"Wed"],["T",3,"Thu"],["F",4,"Fri"],["S",5,"Sat"]];
+let STATE=null, sel={courses:new Set(),days:new Set(),holes:"18",players:1,horizon:7,early:6,late:12,price:0};
+
+const $=id=>document.getElementById(id);
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3200);}
+function fmtTime(h){let hh=Math.floor(h),mm=(h%1)?"30":"00",ap=hh>=12?"p":"a",d=hh%12||12;return `${d}:${mm}${ap}`;}
+function ago(iso){try{const s=(Date.now()-new Date(iso))/1000;if(s<90)return"just now";if(s<3600)return Math.round(s/60)+" min ago";if(s<86400)return Math.round(s/3600)+" hr ago";return Math.round(s/86400)+" d ago";}catch(e){return"";}}
+
+// tabs
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
+  const v=t.dataset.tab;$('view-open').classList.toggle('hidden',v!=='open');$('view-settings').classList.toggle('hidden',v!=='settings');
+});
+
+async function load(){
+  try{
+    const r=await fetch('./state.json?t='+Date.now(),{cache:'no-store'});
+    STATE=await r.json();
+  }catch(e){$('updated').textContent='Could not load data yet';return;}
+  renderOpen();renderSettings();
+}
+function renderOpen(){
+  $('updated').textContent='Updated '+ago(STATE.updated);
+  const open=STATE.open||[];
+  $('count').textContent=open.length?`${open.length} open slot${open.length>1?'s':''} match your filters`:'';
+  const box=$('openlist');box.innerHTML='';
+  if(!open.length){box.innerHTML=`<div class="empty"><div class="big">🏌️</div>Nothing open right now that matches your filters.<br>Looper will buzz your phone the moment something opens.</div>`;return;}
+  const groups={};open.forEach(o=>{(groups[o.course+'||'+o.date]=groups[o.course+'||'+o.date]||[]).push(o);});
+  Object.keys(groups).forEach(k=>{
+    const slots=groups[k];const first=slots[0];
+    const d=new Date(first.when);const day=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+    const g=document.createElement('div');g.className='grp';g.innerHTML=`${first.course} <span class="badge">${day}</span>`;box.appendChild(g);
+    slots.forEach(s=>{
+      const el=document.createElement('div');el.className='slot';
+      const bits=[];if(s.holes)bits.push(s.holes+'h');if(s.players)bits.push(s.players+' spot'+(s.players>1?'s':''));if(s.price!=null)bits.push('$'+s.price);
+      el.innerHTML=`<div><div class="t">${s.time}</div><div class="d">${bits.join(' · ')}</div></div><a class="book" href="${s.url}" target="_blank" rel="noopener">Book →</a>`;
+      box.appendChild(el);
+    });
+  });
+}
+function renderSettings(){
+  const s=STATE.settings;
+  // courses
+  sel.courses=new Set(s.courses);
+  const cc=$('courses');cc.innerHTML='';
+  (STATE.catalog||[]).forEach(c=>{
+    const el=document.createElement('div');el.className='chip'+(sel.courses.has(c.key)?' on':'');el.textContent=c.name;
+    el.onclick=()=>{sel.courses.has(c.key)?sel.courses.delete(c.key):sel.courses.add(c.key);el.classList.toggle('on');};
+    cc.appendChild(el);
+  });
+  // days
+  sel.days=new Set(s.weekdays);
+  const db=$('days');db.innerHTML='';
+  DAYS.forEach(([lab,idx])=>{const el=document.createElement('button');el.className='day'+(sel.days.has(idx)?' on':'');el.textContent=lab;
+    el.onclick=()=>{sel.days.has(idx)?sel.days.delete(idx):sel.days.add(idx);el.classList.toggle('on');};db.appendChild(el);});
+  // sliders
+  sel.horizon=s.horizon_days;$('horizon').value=s.horizon_days;$('horizonV').textContent=s.horizon_days+' day'+(s.horizon_days>1?'s':'');
+  sel.early=hm(s.earliest);$('early').value=sel.early;$('earlyV').textContent=fmtTime(sel.early);
+  sel.late=hm(s.latest);$('late').value=sel.late;$('lateV').textContent=fmtTime(sel.late);
+  sel.price=s.max_price||0;$('price').value=sel.price;$('priceV').textContent=sel.price?('$'+sel.price):'Any';
+  // segments
+  sel.holes=s.holes==null?'any':String(s.holes);segSet('holes',sel.holes);
+  sel.players=s.players_min||1;segSet('players',String(sel.players));
+}
+function hm(str){const[a,b]=str.split(':').map(Number);return a+(b>=30?0.5:0);}
+function segSet(id,v){document.querySelectorAll('#'+id+' button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));}
+function segInit(id,key,parse){document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{segSet(id,b.dataset.v);sel[key]=parse?parse(b.dataset.v):b.dataset.v;});}
+segInit('holes','holes');segInit('players','players',v=>+v);
+function slider(id,key,fmt){$(id).oninput=()=>{sel[key]=+$(id).value;$(id+'V').textContent=fmt(+$(id).value);};}
+slider('horizon','horizon',v=>v+' day'+(v>1?'s':''));slider('early','early',fmtTime);slider('late','late',fmtTime);slider('price','price',v=>v?('$'+v):'Any');
+
+// ---- YAML build ----
+function pad(n){return (n<10?'0':'')+n;}
+function toHHMM(h){return pad(Math.floor(h))+':'+((h%1)?'30':'00');}
+function buildYaml(){
+  const nmeta={6:'Sun',0:'Mon',1:'Tue',2:'Wed',3:'Thu',4:'Fri',5:'Sat'};
+  const days=[...sel.days].sort((a,b)=>a-b).map(d=>nmeta[d]);
+  const courses=(STATE.catalog||[]).map(c=>c.key).filter(k=>sel.courses.has(k)); // keep catalog order
+  let y="# LI Links config — edited from the dashboard\ncourses:\n";
+  courses.forEach(c=>y+="  - "+c+"\n");
+  y+="\ndates: []\nweekdays: ["+days.join(", ")+"]\nhorizon_days: "+sel.horizon+"\n\n";
+  y+="time_window:\n  earliest: \""+toHHMM(sel.early)+"\"\n  latest:   \""+toHHMM(sel.late)+"\"\n\n";
+  y+="filters:\n  holes: "+(sel.holes==='any'?'any':sel.holes)+"\n  players_min: "+sel.players+"\n  max_price:"+(sel.price?' '+sel.price:'')+"\n\n";
+  const nf=(STATE.settings&&STATE.settings.notify)||{backend:'ntfy',priority:'high'};
+  y+="notify:\n  backend: "+(nf.backend||'ntfy')+"\n";
+  if(nf.topic)y+="  topic: \""+nf.topic+"\"\n";
+  y+="  priority: "+(nf.priority||'high')+"\n";
+  return y;
+}
+
+// ---- GitHub connect + save ----
+function b64utf8(str){return btoa(unescape(encodeURIComponent(str)));}
+function token(){return localStorage.getItem('looper_gh_token')||'';}
+function setConn(ok){$('condot').classList.toggle('ok',ok);$('constatus').textContent=ok?'Connected — you can save changes':'Not connected — connect once to save changes';$('connectBox').classList.toggle('hidden',ok);$('saveBtn').disabled=!ok;}
+$('howto').onclick=()=>{window.open('https://github.com/settings/personal-access-tokens/new','_blank');toast('Create a fine-grained token with Contents: Read and write on the "looper" repo, then paste it here.');};
+$('connectBtn').onclick=()=>{const t=$('token').value.trim();if(!t){toast('Paste your token first');return;}localStorage.setItem('looper_gh_token',t);$('token').value='';setConn(true);toast('Connected ✓');};
+async function save(){
+  const t=token();if(!t){toast('Connect first');return;}
+  if(!sel.courses.size){toast('Pick at least one course');return;}
+  $('saveBtn').disabled=true;$('saveBtn').textContent='Saving…';
+  try{
+    const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/config.yaml`;
+    const headers={'Authorization':'Bearer '+t,'Accept':'application/vnd.github+json'};
+    let sha=null;
+    const g=await fetch(api+'?t='+Date.now(),{headers,cache:'no-store'});
+    if(g.status===200){sha=(await g.json()).sha;}
+    else if(g.status===401){throw new Error('That token was rejected. Re-connect with a valid token.');}
+    const body={message:'Update settings via dashboard',content:b64utf8(buildYaml())};
+    if(sha)body.sha=sha;
+    const p=await fetch(api,{method:'PUT',headers,body:JSON.stringify(body)});
+    if(!p.ok){const e=await p.json().catch(()=>({}));throw new Error(e.message||('Save failed ('+p.status+')'));}
+    toast('Saved ✓ Looper will refresh within a minute');
+  }catch(e){toast(e.message||'Save failed');if(/token/.test(e.message||'')){localStorage.removeItem('looper_gh_token');setConn(false);}}
+  $('saveBtn').disabled=false;$('saveBtn').textContent='Save changes';
+}
+$('saveBtn').onclick=save;
+$('refresh').onclick=load;
+setConn(!!token());
+load();
+setInterval(load,120000);
+</script>
+</body></html>

@@ -644,8 +644,36 @@ def collect(cfg, debug=False):
             _time.sleep(0.7)
     return all_times
 
+def write_state(times, cfg, path="state.json"):
+    """Publish machine-readable state for the dashboard app: the current open
+    slots, the active settings, and the full course catalog."""
+    ordered = sorted(times, key=lambda x: (x.when, x.course_name))
+    open_list = [{
+        "course_key": t.course_key, "course": t.course_name, "date": t.date_str,
+        "time": t.time_str, "when": t.when.isoformat(), "holes": t.holes,
+        "players": t.players, "price": t.price, "url": t.booking_url,
+    } for t in ordered]
+    catalog = [{"key": k, "name": c["name"], "provider": c["provider"]}
+               for k, c in CATALOG.items() if c["provider"] != "nassau"]
+    settings = {
+        "courses": cfg.courses, "weekdays": cfg.weekdays, "horizon_days": cfg.horizon_days,
+        "earliest": cfg.earliest.strftime("%H:%M"), "latest": cfg.latest.strftime("%H:%M"),
+        "holes": cfg.holes, "players_min": cfg.players_min, "max_price": cfg.max_price,
+        "notify": {"backend": cfg.notify.get("backend", "ntfy"),
+                   "topic": cfg.notify.get("topic"),
+                   "priority": cfg.notify.get("priority", "high")},
+    }
+    data = {"updated": datetime.now(NY).isoformat(), "count": len(open_list),
+            "settings": settings, "open": open_list, "catalog": catalog}
+    try:
+        Path(path).write_text(json.dumps(data, indent=2))
+    except OSError:
+        pass
+
+
 def run_once(cfg, seen_path="seen.json", debug=False):
     times = collect(cfg, debug)
+    write_state(times, cfg)
     first_run = not Path(seen_path).exists()
     seen = load_seen(seen_path)
     new = [t for t in times if t.uid not in seen]
@@ -655,7 +683,7 @@ def run_once(cfg, seen_path="seen.json", debug=False):
     print(f"[run] {len(times)} matching, {len(new)} new{' (first run: primed, no per-slot alerts)' if first_run else ''}")
     if first_run:
         # Prime the baseline quietly; send ONE friendly summary instead of spamming.
-        notify_text(cfg.notify, "⛳ Looper is live!",
+        notify_text(cfg.notify, "⛳ LI Links is live!",
                     f"Watching {len(cfg.courses)} Long Island courses for your tee-time dates. "
                     f"{len(times)} open slot(s) match your filters right now — from here I'll only "
                     f"ping you when NEW times open up. Good luck out there.")
@@ -709,8 +737,8 @@ def cmd_list(a):
 
 def cmd_test(a):
     cfg = load_config(a.config)
-    notify_text(cfg.notify, "⛳ Looper — test alert",
-                "If you got this, Looper alerts are working. Good luck out there.")
+    notify_text(cfg.notify, "⛳ LI Links — test alert",
+                "If you got this, LI Links alerts are working. Good luck out there.")
     print("Test sent via:", (cfg.notify.get("backend") or "ntfy"))
 
 def main():
