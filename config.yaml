@@ -21,7 +21,7 @@ courses:
 
 dates: []
 weekdays: [Sat, Sun]
-horizon_days: 7
+horizon_days: 14
 
 time_window:
   earliest: "06:00"
