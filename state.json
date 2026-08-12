@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T09:14:13.939825-04:00",
-  "count": 96,
+  "updated": "2026-08-12T10:04:53.315019-04:00",
+  "count": 94,
   "settings": {
     "courses": [
       "bethpage",
@@ -108,17 +108,6 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-13",
-      "time": "9:40a",
-      "when": "2026-08-13T09:40:00",
-      "holes": 18,
-      "players": 2,
-      "price": 50.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-08-13",
@@ -139,6 +128,17 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-08-13",
+      "time": "10:27a",
+      "when": "2026-08-13T10:27:00",
+      "holes": 18,
+      "players": 2,
+      "price": 28.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "holbrook",
@@ -361,17 +361,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-14",
-      "time": "9:36a",
-      "when": "2026-08-14T09:36:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-08-14",
@@ -499,7 +488,7 @@
       "time": "12:00p",
       "when": "2026-08-14T12:00:00",
       "holes": 18,
-      "players": 2,
+      "players": 4,
       "price": 58.0,
       "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
@@ -674,17 +663,6 @@
       "date": "2026-08-16",
       "time": "7:12a",
       "when": "2026-08-16T07:12:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-16",
-      "time": "7:36a",
-      "when": "2026-08-16T07:36:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -1223,6 +1201,34 @@
       "name": "Hamlet Wind Watch Golf Club (Hauppauge)",
       "provider": "chronogolf",
       "region": "Suffolk \u2014 Semi-Private",
+      "login": false
+    },
+    {
+      "key": "timber_point",
+      "name": "Timber Point Golf Course (Great River)",
+      "provider": "webtrac",
+      "region": "Suffolk \u2014 Town & Public",
+      "login": false
+    },
+    {
+      "key": "west_sayville",
+      "name": "West Sayville Golf Course",
+      "provider": "webtrac",
+      "region": "Suffolk \u2014 Town & Public",
+      "login": false
+    },
+    {
+      "key": "indian_island",
+      "name": "Indian Island Golf Course (Riverhead)",
+      "provider": "webtrac",
+      "region": "East End",
+      "login": false
+    },
+    {
+      "key": "santapogue_creek",
+      "name": "Santapogue Creek Golf Course (Babylon)",
+      "provider": "webtrac",
+      "region": "Suffolk \u2014 Town & Public",
       "login": false
     },
     {
