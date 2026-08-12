@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T06:21:12.146416-04:00",
-  "count": 0,
+  "updated": "2026-08-12T06:32:05.172848-04:00",
+  "count": 6,
   "settings": {
     "courses": [
       "bethpage",
@@ -23,6 +23,8 @@
       "hamlet_wind_watch"
     ],
     "weekdays": [
+      3,
+      4,
       5,
       6
     ],
@@ -38,7 +40,74 @@
       "priority": "high"
     }
   },
-  "open": [],
+  "open": [
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-13",
+      "time": "7:20a",
+      "when": "2026-08-13T07:20:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-14",
+      "time": "8:40a",
+      "when": "2026-08-14T08:40:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-08-14",
+      "time": "9:12a",
+      "when": "2026-08-14T09:12:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-14",
+      "time": "9:40a",
+      "when": "2026-08-14T09:40:00",
+      "holes": 18,
+      "players": 3,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-08-14",
+      "time": "9:52a",
+      "when": "2026-08-14T09:52:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-08-14",
+      "time": "11:04a",
+      "when": "2026-08-14T11:04:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    }
+  ],
   "catalog": [
     {
       "key": "bethpage",
