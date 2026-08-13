@@ -23,7 +23,7 @@ courses:
   - indian_island
 
 dates: []
-weekdays: [Sat, Sun]
+weekdays: [Fri, Sat, Sun]
 horizon_days: 14
 
 time_window:
