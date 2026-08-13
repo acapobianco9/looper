@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T08:08:59.149276-04:00",
-  "count": 69,
+  "updated": "2026-08-13T11:36:24.935133-04:00",
+  "count": 66,
   "settings": {
     "courses": [
       "bethpage",
@@ -105,7 +105,7 @@
       "time": "7:12a",
       "when": "2026-08-14T07:12:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -154,17 +154,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-14",
-      "time": "7:50a",
-      "when": "2026-08-14T07:50:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-14",
@@ -176,37 +165,15 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
       "date": "2026-08-14",
-      "time": "8:00a",
-      "when": "2026-08-14T08:00:00",
+      "time": "7:54a",
+      "when": "2026-08-14T07:54:00",
       "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-14",
-      "time": "8:32a",
-      "when": "2026-08-14T08:32:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-14",
-      "time": "9:10a",
-      "when": "2026-08-14T09:10:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+      "players": 3,
+      "price": 28.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "holbrook",
@@ -220,15 +187,70 @@
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-14",
+      "time": "9:40a",
+      "when": "2026-08-14T09:40:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-08-14",
+      "time": "10:18a",
+      "when": "2026-08-14T10:18:00",
+      "holes": 18,
+      "players": 1,
+      "price": 28.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-08-14",
+      "time": "10:24a",
+      "when": "2026-08-14T10:24:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-14",
+      "time": "11:20a",
+      "when": "2026-08-14T11:20:00",
+      "holes": 18,
+      "players": 1,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-14",
       "time": "11:36a",
       "when": "2026-08-14T11:36:00",
       "holes": 18,
-      "players": 1,
+      "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-14",
+      "time": "11:40a",
+      "when": "2026-08-14T11:40:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -322,17 +344,6 @@
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-08-15",
-      "time": "9:40a",
-      "when": "2026-08-15T09:40:00",
-      "holes": 18,
-      "players": 1,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-15",
       "time": "10:30a",
       "when": "2026-08-15T10:30:00",
       "holes": 18,
@@ -385,28 +396,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-15",
-      "time": "11:52a",
-      "when": "2026-08-15T11:52:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-15",
-      "time": "12:00p",
-      "when": "2026-08-15T12:00:00",
-      "holes": 18,
-      "players": 2,
-      "price": 53.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-15",
@@ -425,17 +414,6 @@
       "when": "2026-08-16T06:00:00",
       "holes": 18,
       "players": 1,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-16",
-      "time": "6:48a",
-      "when": "2026-08-16T06:48:00",
-      "holes": 18,
-      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -544,17 +522,6 @@
       "date": "2026-08-16",
       "time": "9:44a",
       "when": "2026-08-16T09:44:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-16",
-      "time": "9:52a",
-      "when": "2026-08-16T09:52:00",
       "holes": 18,
       "players": 4,
       "price": null,
