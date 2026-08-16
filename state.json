@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T09:47:53.154232-04:00",
-  "count": 162,
+  "updated": "2026-08-16T10:51:41.679865-04:00",
+  "count": 153,
   "settings": {
     "courses": [
       "bethpage",
@@ -43,28 +43,6 @@
   },
   "open": [
     {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-08-16",
-      "time": "9:48a",
-      "when": "2026-08-16T09:48:00",
-      "holes": 18,
-      "players": 2,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-16",
-      "time": "11:30a",
-      "when": "2026-08-16T11:30:00",
-      "holes": 18,
-      "players": 2,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-16",
@@ -82,18 +60,7 @@
       "time": "11:40a",
       "when": "2026-08-16T11:40:00",
       "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-16",
-      "time": "11:50a",
-      "when": "2026-08-16T11:50:00",
-      "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
@@ -357,7 +324,7 @@
       "time": "9:00a",
       "when": "2026-08-22T09:00:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
@@ -687,7 +654,7 @@
       "time": "11:20a",
       "when": "2026-08-22T11:20:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 56.0,
       "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
@@ -888,17 +855,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-23",
-      "time": "6:20a",
-      "when": "2026-08-23T06:20:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -1281,7 +1237,7 @@
       "time": "9:50a",
       "when": "2026-08-23T09:50:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
@@ -1317,17 +1273,6 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-23",
-      "time": "10:00a",
-      "when": "2026-08-23T10:00:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -1429,17 +1374,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-23",
-      "time": "10:32a",
-      "when": "2026-08-23T10:32:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-08-23",
@@ -1471,17 +1405,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-23",
-      "time": "10:48a",
-      "when": "2026-08-23T10:48:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -1572,17 +1495,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-08-23",
-      "time": "11:15a",
-      "when": "2026-08-23T11:15:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
-    },
-    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-08-23",
@@ -1614,17 +1526,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-23",
-      "time": "11:20a",
-      "when": "2026-08-23T11:20:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "stonebridge",
