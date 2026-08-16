@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T16:55:19.923881-04:00",
+  "updated": "2026-08-16T17:41:42.259347-04:00",
   "count": 139,
   "settings": {
     "courses": [
@@ -624,6 +624,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-08-22",
+      "time": "11:36a",
+      "when": "2026-08-22T11:36:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "smithtown_landing",
@@ -1413,7 +1424,7 @@
       "time": "11:28a",
       "when": "2026-08-23T11:28:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
@@ -1449,17 +1460,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-23",
-      "time": "11:36a",
-      "when": "2026-08-23T11:36:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "cherry_creek",
