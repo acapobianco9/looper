@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T06:54:19.335018-04:00",
-  "count": 173,
+  "updated": "2026-08-16T07:42:40.118194-04:00",
+  "count": 170,
   "settings": {
     "courses": [
       "bethpage",
@@ -46,23 +46,23 @@
       "course_key": "montauk_downs",
       "course": "Montauk Downs State Park Golf Course",
       "date": "2026-08-16",
-      "time": "8:18a",
-      "when": "2026-08-16T08:18:00",
+      "time": "8:54a",
+      "when": "2026-08-16T08:54:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 111.0,
       "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
     {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
       "date": "2026-08-16",
-      "time": "8:57a",
-      "when": "2026-08-16T08:57:00",
+      "time": "9:52a",
+      "when": "2026-08-16T09:52:00",
       "holes": 18,
-      "players": 3,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+      "players": 2,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "cherry_creek",
@@ -162,6 +162,17 @@
       "players": 2,
       "price": 53.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-08-16",
+      "time": "12:00p",
+      "when": "2026-08-16T12:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "cherry_creek",
@@ -978,17 +989,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-08-23",
-      "time": "6:30a",
-      "when": "2026-08-23T06:30:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-23",
@@ -1108,17 +1108,6 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-23",
-      "time": "7:36a",
-      "when": "2026-08-23T07:36:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "cherry_creek",
@@ -1328,17 +1317,6 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-23",
-      "time": "9:20a",
-      "when": "2026-08-23T09:20:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -1561,17 +1539,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-23",
-      "time": "10:40a",
-      "when": "2026-08-23T10:40:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-23",
@@ -1644,7 +1611,7 @@
       "time": "11:06a",
       "when": "2026-08-23T11:06:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
