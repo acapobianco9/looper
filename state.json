@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T18:56:27.540072-04:00",
-  "count": 106,
+  "updated": "2026-08-17T19:50:17.530356-04:00",
+  "count": 104,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,6 +42,17 @@
     }
   },
   "open": [
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-08-22",
+      "time": "6:16a",
+      "when": "2026-08-22T06:16:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
@@ -439,17 +450,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-08-22",
-      "time": "11:15a",
-      "when": "2026-08-22T11:15:00",
-      "holes": 18,
-      "players": 2,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
-    },
-    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-08-22",
@@ -470,17 +470,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-08-22",
-      "time": "11:20a",
-      "when": "2026-08-22T11:20:00",
-      "holes": 18,
-      "players": 2,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "middle_island",
@@ -998,17 +987,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-08-23",
-      "time": "10:40a",
-      "when": "2026-08-23T10:40:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "middle_island",
