@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T09:58:24.248606-04:00",
-  "count": 121,
+  "updated": "2026-08-17T10:59:18.384062-04:00",
+  "count": 120,
   "settings": {
     "courses": [
       "bethpage",
@@ -624,17 +624,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-08-22",
-      "time": "11:44a",
-      "when": "2026-08-22T11:44:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "holbrook",
