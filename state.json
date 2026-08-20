@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T07:05:02.392258-04:00",
+  "updated": "2026-08-20T08:02:31.045336-04:00",
   "count": 62,
   "settings": {
     "courses": [
@@ -76,13 +76,24 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-08-22",
+      "time": "7:09a",
+      "when": "2026-08-22T07:09:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-22",
       "time": "7:12a",
       "when": "2026-08-22T07:12:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -151,17 +162,6 @@
       "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-08-22",
-      "time": "9:24a",
-      "when": "2026-08-22T09:24:00",
-      "holes": 18,
-      "players": 4,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -296,17 +296,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-08-22",
-      "time": "11:20a",
-      "when": "2026-08-22T11:20:00",
-      "holes": 18,
-      "players": 2,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-22",
@@ -400,6 +389,17 @@
       "date": "2026-08-23",
       "time": "7:52a",
       "when": "2026-08-23T07:52:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-08-23",
+      "time": "8:00a",
+      "when": "2026-08-23T08:00:00",
       "holes": 18,
       "players": 4,
       "price": null,
