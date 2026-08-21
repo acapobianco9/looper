@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21T16:55:37.847179-04:00",
-  "count": 63,
+  "updated": "2026-08-21T17:55:54.618971-04:00",
+  "count": 61,
   "settings": {
     "courses": [
       "bethpage",
@@ -43,15 +43,15 @@
   },
   "open": [
     {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
       "date": "2026-08-22",
-      "time": "6:16a",
-      "when": "2026-08-22T06:16:00",
+      "time": "6:10a",
+      "when": "2026-08-22T06:10:00",
       "holes": 18,
       "players": 3,
       "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -140,17 +140,6 @@
       "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-22",
-      "time": "8:20a",
-      "when": "2026-08-22T08:20:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -338,17 +327,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-08-22",
-      "time": "11:15a",
-      "when": "2026-08-22T11:15:00",
-      "holes": 18,
-      "players": 2,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "cherry_creek",
