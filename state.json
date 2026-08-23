@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T13:44:55.410166-04:00",
-  "count": 143,
+  "updated": "2026-08-23T15:02:29.852160-04:00",
+  "count": 142,
   "settings": {
     "courses": [
       "bethpage",
@@ -181,7 +181,7 @@
       "time": "7:20a",
       "when": "2026-08-29T07:20:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -1603,17 +1603,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-08-30",
-      "time": "12:00p",
-      "when": "2026-08-30T12:00:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     }
   ],
   "catalog": [
