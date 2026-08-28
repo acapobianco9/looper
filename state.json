@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28T18:26:01.168416-04:00",
-  "count": 31,
+  "updated": "2026-08-28T18:36:50.394727-04:00",
+  "count": 30,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,17 +42,6 @@
     }
   },
   "open": [
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-08-29",
-      "time": "6:40a",
-      "when": "2026-08-29T06:40:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
     {
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
