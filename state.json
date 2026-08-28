@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28T18:15:19.440235-04:00",
-  "count": 33,
+  "updated": "2026-08-28T18:26:01.168416-04:00",
+  "count": 31,
   "settings": {
     "courses": [
       "bethpage",
@@ -61,28 +61,6 @@
       "when": "2026-08-29T06:50:00",
       "holes": 18,
       "players": 2,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-08-29",
-      "time": "8:12a",
-      "when": "2026-08-29T08:12:00",
-      "holes": 18,
-      "players": 4,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-29",
-      "time": "10:20a",
-      "when": "2026-08-29T10:20:00",
-      "holes": 18,
-      "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
