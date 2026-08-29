@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T17:13:50.491964-04:00",
-  "count": 79,
+  "updated": "2026-08-29T17:24:39.689108-04:00",
+  "count": 78,
   "settings": {
     "courses": [
       "bethpage",
@@ -120,17 +120,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-08-30",
-      "time": "11:21a",
-      "when": "2026-08-30T11:21:00",
-      "holes": 18,
-      "players": 4,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-30",
@@ -148,7 +137,7 @@
       "time": "11:30a",
       "when": "2026-08-30T11:30:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
