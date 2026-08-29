@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T13:37:26.726052-04:00",
-  "count": 81,
+  "updated": "2026-08-29T13:48:12.631094-04:00",
+  "count": 82,
   "settings": {
     "courses": [
       "bethpage",
@@ -159,7 +159,7 @@
       "time": "11:36a",
       "when": "2026-08-30T11:36:00",
       "holes": 18,
-      "players": 3,
+      "players": 2,
       "price": 111.0,
       "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
@@ -195,6 +195,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "smithtown_landing",
+      "course": "Smithtown Landing Country Club",
+      "date": "2026-08-30",
+      "time": "12:00p",
+      "when": "2026-08-30T12:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": 56.0,
+      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "middle_island",
