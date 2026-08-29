@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T13:15:51.330167-04:00",
-  "count": 80,
+  "updated": "2026-08-29T13:26:31.710627-04:00",
+  "count": 81,
   "settings": {
     "courses": [
       "bethpage",
@@ -151,6 +151,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-08-30",
+      "time": "11:36a",
+      "when": "2026-08-30T11:36:00",
+      "holes": 18,
+      "players": 3,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
     {
       "course_key": "middle_island",
