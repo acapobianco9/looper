@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T03:29:03.701290-04:00",
-  "count": 123,
+  "updated": "2026-08-29T03:39:49.658256-04:00",
+  "count": 121,
   "settings": {
     "courses": [
       "bethpage",
@@ -1044,17 +1044,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-05",
-      "time": "10:56a",
-      "when": "2026-09-05T10:56:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-09-05",
@@ -1086,17 +1075,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-05",
-      "time": "11:04a",
-      "when": "2026-09-05T11:04:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "cherry_creek",
