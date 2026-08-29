@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T23:06:47.441185-04:00",
+  "updated": "2026-08-28T23:17:29.910151-04:00",
   "count": 93,
   "settings": {
     "courses": [
@@ -43,6 +43,17 @@
   },
   "open": [
     {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-08-29",
+      "time": "7:27a",
+      "when": "2026-08-29T07:27:00",
+      "holes": 18,
+      "players": 2,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-08-29",
@@ -52,17 +63,6 @@
       "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-08-29",
-      "time": "11:00a",
-      "when": "2026-08-29T11:00:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
