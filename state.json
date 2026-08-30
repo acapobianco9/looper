@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T19:55:32.060312-04:00",
-  "count": 74,
+  "updated": "2026-08-29T20:07:43.602997-04:00",
+  "count": 75,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,6 +42,17 @@
     }
   },
   "open": [
+    {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-08-30",
+      "time": "9:39a",
+      "when": "2026-08-30T09:39:00",
+      "holes": 18,
+      "players": 2,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
@@ -698,7 +709,7 @@
       "time": "11:24a",
       "when": "2026-09-05T11:24:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
