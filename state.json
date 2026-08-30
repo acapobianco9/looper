@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T10:19:32.400561-04:00",
-  "count": 129,
+  "updated": "2026-08-30T10:30:05.930685-04:00",
+  "count": 128,
   "settings": {
     "courses": [
       "bethpage",
@@ -753,7 +753,7 @@
       "time": "7:00a",
       "when": "2026-09-06T07:00:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
@@ -1372,17 +1372,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-06",
-      "time": "11:44a",
-      "when": "2026-09-06T11:44:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "stonebridge",
