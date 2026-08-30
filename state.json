@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T10:30:05.930685-04:00",
-  "count": 128,
+  "updated": "2026-08-30T10:40:59.033967-04:00",
+  "count": 130,
   "settings": {
     "courses": [
       "bethpage",
@@ -50,6 +50,17 @@
       "when": "2026-08-30T11:04:00",
       "holes": 18,
       "players": 2,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-08-30",
+      "time": "11:12a",
+      "when": "2026-08-30T11:12:00",
+      "holes": 18,
+      "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -1372,6 +1383,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-09-06",
+      "time": "11:44a",
+      "when": "2026-09-06T11:44:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "stonebridge",
