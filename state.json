@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T07:25:20.522007-04:00",
-  "count": 145,
+  "updated": "2026-08-30T07:36:16.078741-04:00",
+  "count": 146,
   "settings": {
     "courses": [
       "bethpage",
@@ -43,6 +43,17 @@
   },
   "open": [
     {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-08-30",
+      "time": "7:52a",
+      "when": "2026-08-30T07:52:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "montauk_downs",
       "course": "Montauk Downs State Park Golf Course",
       "date": "2026-08-30",
@@ -70,17 +81,6 @@
       "date": "2026-08-30",
       "time": "10:42a",
       "when": "2026-08-30T10:42:00",
-      "holes": 18,
-      "players": 4,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
-    },
-    {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-08-30",
-      "time": "10:51a",
-      "when": "2026-08-30T10:51:00",
       "holes": 18,
       "players": 4,
       "price": 111.0,
@@ -338,6 +338,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-05",
+      "time": "9:00a",
+      "when": "2026-09-05T09:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
