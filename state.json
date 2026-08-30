@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T11:46:28.774737-04:00",
-  "count": 120,
+  "updated": "2026-08-30T11:57:31.825804-04:00",
+  "count": 119,
   "settings": {
     "courses": [
       "bethpage",
@@ -59,6 +59,17 @@
       "date": "2026-09-05",
       "time": "7:12a",
       "when": "2026-09-05T07:12:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-05",
+      "time": "7:20a",
+      "when": "2026-09-05T07:20:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -643,7 +654,7 @@
       "time": "6:32a",
       "when": "2026-09-06T06:32:00",
       "holes": 18,
-      "players": 3,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -664,17 +675,6 @@
       "date": "2026-09-06",
       "time": "6:56a",
       "when": "2026-09-06T06:56:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-06",
-      "time": "7:04a",
-      "when": "2026-09-06T07:04:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -967,17 +967,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-09-06",
-      "time": "9:30a",
-      "when": "2026-09-06T09:30:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-06",
@@ -1237,7 +1226,7 @@
       "time": "11:33a",
       "when": "2026-09-06T11:33:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
