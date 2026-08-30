@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T20:07:43.602997-04:00",
-  "count": 75,
+  "updated": "2026-08-29T20:18:33.991814-04:00",
+  "count": 72,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,17 +42,6 @@
     }
   },
   "open": [
-    {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-08-30",
-      "time": "9:39a",
-      "when": "2026-08-30T09:39:00",
-      "holes": 18,
-      "players": 2,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
-    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
@@ -140,17 +129,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-08-30",
-      "time": "11:48a",
-      "when": "2026-08-30T11:48:00",
-      "holes": 18,
-      "players": 2,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -789,17 +767,6 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-09-05",
-      "time": "11:42a",
-      "when": "2026-09-05T11:42:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
