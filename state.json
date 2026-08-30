@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T01:57:21.378980-04:00",
-  "count": 153,
+  "updated": "2026-08-30T02:09:07.011114-04:00",
+  "count": 152,
   "settings": {
     "courses": [
       "bethpage",
@@ -613,17 +613,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-05",
-      "time": "11:28a",
-      "when": "2026-09-05T11:28:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "cherry_creek",
