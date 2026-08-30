@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T21:35:19.804528-04:00",
-  "count": 132,
+  "updated": "2026-08-29T21:46:12.636864-04:00",
+  "count": 133,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,6 +42,17 @@
     }
   },
   "open": [
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-08-30",
+      "time": "6:30a",
+      "when": "2026-08-30T06:30:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
