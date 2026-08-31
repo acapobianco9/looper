@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-31T12:06:45.329040-04:00",
-  "count": 82,
+  "updated": "2026-08-31T12:17:41.218451-04:00",
+  "count": 81,
   "settings": {
     "courses": [
       "bethpage",
@@ -459,17 +459,6 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-09-05",
-      "time": "11:33a",
-      "when": "2026-09-05T11:33:00",
-      "holes": 18,
-      "players": 2,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
