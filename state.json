@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:33:49.717382-04:00",
+  "updated": "2026-08-31T13:44:53.826374-04:00",
   "count": 80,
   "settings": {
     "courses": [
@@ -533,7 +533,7 @@
       "time": "7:52a",
       "when": "2026-09-06T07:52:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -918,7 +918,7 @@
       "time": "12:00p",
       "when": "2026-09-06T12:00:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 56.0,
       "url": "https://smithtown-landing-country-club.book.teeitup.com"
     }
