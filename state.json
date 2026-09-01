@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01T15:00:09.064439-04:00",
-  "count": 61,
+  "updated": "2026-09-01T15:16:36.125724-04:00",
+  "count": 60,
   "settings": {
     "courses": [
       "bethpage",
@@ -156,17 +156,6 @@
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-05",
-      "time": "9:12a",
-      "when": "2026-09-05T09:12:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-05",
       "time": "9:28a",
       "when": "2026-09-05T09:28:00",
       "holes": 18,
@@ -280,7 +269,7 @@
       "time": "11:06a",
       "when": "2026-09-05T11:06:00",
       "holes": 18,
-      "players": 4,
+      "players": 3,
       "price": 68.0,
       "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
