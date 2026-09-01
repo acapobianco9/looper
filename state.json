@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01T12:27:21.434249-04:00",
-  "count": 62,
+  "updated": "2026-09-01T12:51:17.021626-04:00",
+  "count": 60,
   "settings": {
     "courses": [
       "bethpage",
@@ -217,17 +217,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-09-05",
-      "time": "10:10a",
-      "when": "2026-09-05T10:10:00",
-      "holes": 18,
-      "players": 2,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -712,17 +701,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-06",
-      "time": "12:00p",
-      "when": "2026-09-06T12:00:00",
-      "holes": 18,
-      "players": 2,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     }
   ],
   "catalog": [
