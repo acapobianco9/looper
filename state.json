@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01T14:48:48.450532-04:00",
-  "count": 59,
+  "updated": "2026-09-01T15:00:09.064439-04:00",
+  "count": 61,
   "settings": {
     "courses": [
       "bethpage",
@@ -272,6 +272,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-09-05",
+      "time": "11:06a",
+      "when": "2026-09-05T11:06:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -558,6 +569,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-09-06",
+      "time": "11:06a",
+      "when": "2026-09-06T11:06:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "cherry_creek",
