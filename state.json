@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-02T07:56:50.951364-04:00",
-  "count": 50,
+  "updated": "2026-09-02T08:18:02.054974-04:00",
+  "count": 47,
   "settings": {
     "courses": [
       "bethpage",
@@ -129,17 +129,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-09-05",
-      "time": "9:39a",
-      "when": "2026-09-05T09:39:00",
-      "holes": 18,
-      "players": 3,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -318,17 +307,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-09-06",
-      "time": "8:20a",
-      "when": "2026-09-06T08:20:00",
-      "holes": 18,
-      "players": 3,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-06",
@@ -338,17 +316,6 @@
       "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-09-06",
-      "time": "9:12a",
-      "when": "2026-09-06T09:12:00",
-      "holes": 18,
-      "players": 3,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -577,7 +544,7 @@
       "time": "12:00p",
       "when": "2026-09-06T12:00:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 53.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
