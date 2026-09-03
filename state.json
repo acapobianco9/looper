@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T13:00:57.226508-04:00",
-  "count": 21,
+  "updated": "2026-09-03T13:18:57.845742-04:00",
+  "count": 20,
   "settings": {
     "courses": [
       "bethpage",
@@ -85,17 +85,6 @@
       "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "cherry_creek",
-      "course": "Cherry Creek Golf Links (Riverhead)",
-      "date": "2026-09-05",
-      "time": "11:30a",
-      "when": "2026-09-05T11:30:00",
-      "holes": 18,
-      "players": 2,
-      "price": 68.0,
-      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
