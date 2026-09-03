@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-02T20:41:40.664235-04:00",
-  "count": 24,
+  "updated": "2026-09-02T20:57:05.420397-04:00",
+  "count": 23,
   "settings": {
     "courses": [
       "bethpage",
@@ -48,17 +48,6 @@
       "date": "2026-09-05",
       "time": "8:32a",
       "when": "2026-09-05T08:32:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-05",
-      "time": "8:56a",
-      "when": "2026-09-05T08:56:00",
       "holes": 18,
       "players": 2,
       "price": null,
