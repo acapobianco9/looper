@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T20:27:11.916477-04:00",
-  "count": 22,
+  "updated": "2026-09-03T20:45:58.569166-04:00",
+  "count": 24,
   "settings": {
     "courses": [
       "bethpage",
@@ -50,6 +50,28 @@
       "when": "2026-09-05T06:40:00",
       "holes": 18,
       "players": 2,
+      "price": 68.0,
+      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "cherry_creek",
+      "course": "Cherry Creek Golf Links (Riverhead)",
+      "date": "2026-09-05",
+      "time": "7:20a",
+      "when": "2026-09-05T07:20:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "cherry_creek",
+      "course": "Cherry Creek Golf Links (Riverhead)",
+      "date": "2026-09-05",
+      "time": "7:30a",
+      "when": "2026-09-05T07:30:00",
+      "holes": 18,
+      "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
