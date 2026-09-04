@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T06:00:51.159740-04:00",
-  "count": 22,
+  "updated": "2026-09-04T06:20:25.392807-04:00",
+  "count": 21,
   "settings": {
     "courses": [
       "bethpage",
@@ -85,17 +85,6 @@
       "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-09-05",
-      "time": "11:18a",
-      "when": "2026-09-05T11:18:00",
-      "holes": 18,
-      "players": 2,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
     {
       "course_key": "middle_island",
