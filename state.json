@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T18:45:14.351227-04:00",
-  "count": 18,
+  "updated": "2026-09-04T18:55:56.044812-04:00",
+  "count": 17,
   "settings": {
     "courses": [
       "bethpage",
@@ -107,17 +107,6 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "crab_meadow",
-      "course": "Crab Meadow Golf Course",
-      "date": "2026-09-06",
-      "time": "10:30a",
-      "when": "2026-09-06T10:30:00",
-      "holes": 18,
-      "players": 2,
-      "price": 56.0,
-      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "middle_island",
