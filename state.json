@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T05:50:10.667232-04:00",
-  "count": 21,
+  "updated": "2026-09-04T06:00:51.159740-04:00",
+  "count": 22,
   "settings": {
     "courses": [
       "bethpage",
@@ -74,6 +74,17 @@
       "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-05",
+      "time": "11:10a",
+      "when": "2026-09-05T11:10:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "montauk_downs",
