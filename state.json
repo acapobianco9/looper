@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T16:35:24.924055-04:00",
-  "count": 77,
+  "updated": "2026-09-05T16:46:02.908023-04:00",
+  "count": 79,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,6 +42,17 @@
     }
   },
   "open": [
+    {
+      "course_key": "tall_grass",
+      "course": "Hominy Hill Golf Course",
+      "date": "2026-09-06",
+      "time": "7:51a",
+      "when": "2026-09-06T07:51:00",
+      "holes": 18,
+      "players": 2,
+      "price": 87.0,
+      "url": "https://foreupsoftware.com/index.php/booking/20290/3782#teetimes"
+    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
@@ -87,15 +98,15 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
       "date": "2026-09-06",
-      "time": "11:36a",
-      "when": "2026-09-06T11:36:00",
+      "time": "11:40a",
+      "when": "2026-09-06T11:40:00",
       "holes": 18,
-      "players": 4,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+      "players": 2,
+      "price": 37.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -118,6 +129,17 @@
       "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
+      "date": "2026-09-06",
+      "time": "11:50a",
+      "when": "2026-09-06T11:50:00",
+      "holes": 18,
+      "players": 2,
+      "price": 37.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "middle_island",
