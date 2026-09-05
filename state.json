@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T13:02:39.840445-04:00",
-  "count": 86,
+  "updated": "2026-09-05T13:18:27.639679-04:00",
+  "count": 85,
   "settings": {
     "courses": [
       "bethpage",
@@ -63,17 +63,6 @@
       "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
-      "course_key": "crab_meadow",
-      "course": "Crab Meadow Golf Course",
-      "date": "2026-09-06",
-      "time": "10:10a",
-      "when": "2026-09-06T10:10:00",
-      "holes": 18,
-      "players": 2,
-      "price": 56.0,
-      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "middle_island",
