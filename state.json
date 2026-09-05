@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T07:08:35.112081-04:00",
-  "count": 99,
+  "updated": "2026-09-05T07:22:38.619750-04:00",
+  "count": 100,
   "settings": {
     "courses": [
       "bethpage",
@@ -52,6 +52,17 @@
       "players": 2,
       "price": 33.0,
       "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-05",
+      "time": "10:50a",
+      "when": "2026-09-05T10:50:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "holbrook",
