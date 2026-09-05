@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T10:53:57.468027-04:00",
+  "updated": "2026-09-05T11:06:44.022547-04:00",
   "count": 95,
   "settings": {
     "courses": [
@@ -57,10 +57,10 @@
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-09-06",
-      "time": "10:10a",
-      "when": "2026-09-06T10:10:00",
+      "time": "8:40a",
+      "when": "2026-09-06T08:40:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
