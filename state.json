@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T08:30:50.605188-04:00",
-  "count": 100,
+  "updated": "2026-09-05T08:47:49.249468-04:00",
+  "count": 98,
   "settings": {
     "courses": [
       "bethpage",
@@ -54,28 +54,6 @@
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-09-05",
-      "time": "11:30a",
-      "when": "2026-09-05T11:30:00",
-      "holes": 18,
-      "players": 2,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-05",
-      "time": "11:44a",
-      "when": "2026-09-05T11:44:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-09-06",
@@ -96,6 +74,17 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
+      "date": "2026-09-06",
+      "time": "10:00a",
+      "when": "2026-09-06T10:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": 56.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -313,7 +302,7 @@
       "time": "7:28a",
       "when": "2026-09-12T07:28:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -800,17 +789,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-12",
-      "time": "11:04a",
-      "when": "2026-09-12T11:04:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "stonebridge",
