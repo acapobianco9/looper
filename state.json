@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T10:43:16.827609-04:00",
-  "count": 96,
+  "updated": "2026-09-05T10:53:57.468027-04:00",
+  "count": 95,
   "settings": {
     "courses": [
       "bethpage",
@@ -701,17 +701,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-12",
-      "time": "10:48a",
-      "when": "2026-09-12T10:48:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "holbrook",
