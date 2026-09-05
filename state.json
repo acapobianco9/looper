@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T04:25:11.798855-04:00",
-  "count": 110,
+  "updated": "2026-09-05T04:39:27.974755-04:00",
+  "count": 108,
   "settings": {
     "courses": [
       "bethpage",
@@ -118,17 +118,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "crab_meadow",
-      "course": "Crab Meadow Golf Course",
-      "date": "2026-09-06",
-      "time": "7:20a",
-      "when": "2026-09-06T07:20:00",
-      "holes": 18,
-      "players": 2,
-      "price": 56.0,
-      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "cherry_creek",
@@ -899,17 +888,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-12",
-      "time": "11:04a",
-      "when": "2026-09-12T11:04:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "stonebridge",
