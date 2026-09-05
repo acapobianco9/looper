@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T09:40:28.400130-04:00",
-  "count": 97,
+  "updated": "2026-09-05T09:51:25.370608-04:00",
+  "count": 96,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,17 +42,6 @@
     }
   },
   "open": [
-    {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-09-06",
-      "time": "7:36a",
-      "when": "2026-09-06T07:36:00",
-      "holes": 18,
-      "players": 4,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
-    },
     {
       "course_key": "crab_meadow",
       "course": "Crab Meadow Golf Course",
