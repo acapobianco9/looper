@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T16:56:54.898743-04:00",
+  "updated": "2026-09-05T17:11:53.784686-04:00",
   "count": 77,
   "settings": {
     "courses": [
@@ -43,6 +43,17 @@
   },
   "open": [
     {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-09-06",
+      "time": "9:28a",
+      "when": "2026-09-06T09:28:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-06",
@@ -60,7 +71,7 @@
       "time": "11:28a",
       "when": "2026-09-06T11:28:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -74,17 +85,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "crab_meadow",
-      "course": "Crab Meadow Golf Course",
-      "date": "2026-09-06",
-      "time": "11:40a",
-      "when": "2026-09-06T11:40:00",
-      "holes": 18,
-      "players": 2,
-      "price": 37.0,
-      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "middle_island",
