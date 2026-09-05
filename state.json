@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T03:04:19.839255-04:00",
-  "count": 109,
+  "updated": "2026-09-05T03:20:10.572897-04:00",
+  "count": 110,
   "settings": {
     "courses": [
       "bethpage",
@@ -107,6 +107,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
+      "date": "2026-09-06",
+      "time": "7:20a",
+      "when": "2026-09-06T07:20:00",
+      "holes": 18,
+      "players": 2,
+      "price": 56.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "cherry_creek",
