@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T15:57:11.674009-04:00",
-  "count": 131,
+  "updated": "2026-09-06T16:13:31.507050-04:00",
+  "count": 130,
   "settings": {
     "courses": [
       "bethpage",
@@ -1284,17 +1284,6 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
-      "course_key": "stonebridge",
-      "course": "Stonebridge Golf Links & CC (Smithtown)",
-      "date": "2026-09-13",
-      "time": "11:24a",
-      "when": "2026-09-13T11:24:00",
-      "holes": 18,
-      "players": 4,
-      "price": 68.0,
-      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
