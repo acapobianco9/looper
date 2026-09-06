@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T19:53:03.321284-04:00",
-  "count": 74,
+  "updated": "2026-09-05T20:07:48.393743-04:00",
+  "count": 73,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,6 +42,17 @@
     }
   },
   "open": [
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-06",
+      "time": "10:09a",
+      "when": "2026-09-06T10:09:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
     {
       "course_key": "sunken_meadow",
       "course": "Sunken Meadow State Park",
@@ -769,17 +780,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-12",
-      "time": "11:44a",
-      "when": "2026-09-12T11:44:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
       "course_key": "holbrook",
       "course": "Holbrook Country Club",
       "date": "2026-09-12",
@@ -844,17 +844,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-12",
-      "time": "12:00p",
-      "when": "2026-09-12T12:00:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     }
   ],
   "catalog": [
