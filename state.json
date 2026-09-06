@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T12:45:46.280609-04:00",
-  "count": 135,
+  "updated": "2026-09-06T12:56:24.430864-04:00",
+  "count": 134,
   "settings": {
     "courses": [
       "bethpage",
@@ -1438,17 +1438,6 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-09-13",
-      "time": "11:50a",
-      "when": "2026-09-13T11:50:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "stonebridge",
