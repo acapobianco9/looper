@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T10:55:10.629909-04:00",
-  "count": 145,
+  "updated": "2026-09-06T11:09:38.460678-04:00",
+  "count": 144,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,17 +42,6 @@
     }
   },
   "open": [
-    {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
-      "date": "2026-09-06",
-      "time": "11:00a",
-      "when": "2026-09-06T11:00:00",
-      "holes": 18,
-      "players": 4,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
-    },
     {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
