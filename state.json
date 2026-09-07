@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T13:23:45.926404-04:00",
-  "count": 113,
+  "updated": "2026-09-07T13:38:01.102518-04:00",
+  "count": 112,
   "settings": {
     "courses": [
       "bethpage",
@@ -1020,17 +1020,6 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-13",
-      "time": "11:12a",
-      "when": "2026-09-13T11:12:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "cherry_creek",
