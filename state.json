@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T00:18:17.420224-04:00",
-  "count": 126,
+  "updated": "2026-09-07T00:35:10.519812-04:00",
+  "count": 124,
   "settings": {
     "courses": [
       "bethpage",
@@ -1077,17 +1077,6 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-13",
-      "time": "11:00a",
-      "when": "2026-09-13T11:00:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-13",
@@ -1119,17 +1108,6 @@
       "players": 2,
       "price": 68.0,
       "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-13",
-      "time": "11:08a",
-      "when": "2026-09-13T11:08:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "cherry_creek",
@@ -1168,8 +1146,8 @@
       "course_key": "smithtown_landing",
       "course": "Smithtown Landing Country Club",
       "date": "2026-09-13",
-      "time": "11:16a",
-      "when": "2026-09-13T11:16:00",
+      "time": "11:12a",
+      "when": "2026-09-13T11:12:00",
       "holes": 18,
       "players": 4,
       "price": 56.0,
@@ -1212,8 +1190,8 @@
       "course_key": "smithtown_landing",
       "course": "Smithtown Landing Country Club",
       "date": "2026-09-13",
-      "time": "11:24a",
-      "when": "2026-09-13T11:24:00",
+      "time": "11:20a",
+      "when": "2026-09-13T11:20:00",
       "holes": 18,
       "players": 4,
       "price": 56.0,
@@ -1240,6 +1218,17 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "smithtown_landing",
+      "course": "Smithtown Landing Country Club",
+      "date": "2026-09-13",
+      "time": "11:28a",
+      "when": "2026-09-13T11:28:00",
+      "holes": 18,
+      "players": 4,
+      "price": 56.0,
+      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "cherry_creek",
@@ -1251,17 +1240,6 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-13",
-      "time": "11:32a",
-      "when": "2026-09-13T11:32:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "stonebridge",
@@ -1297,6 +1275,17 @@
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
+      "course_key": "smithtown_landing",
+      "course": "Smithtown Landing Country Club",
+      "date": "2026-09-13",
+      "time": "11:36a",
+      "when": "2026-09-13T11:36:00",
+      "holes": 18,
+      "players": 4,
+      "price": 56.0,
+      "url": "https://smithtown-landing-country-club.book.teeitup.com"
+    },
+    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-09-13",
@@ -1306,17 +1295,6 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "smithtown_landing",
-      "course": "Smithtown Landing Country Club",
-      "date": "2026-09-13",
-      "time": "11:40a",
-      "when": "2026-09-13T11:40:00",
-      "holes": 18,
-      "players": 4,
-      "price": 56.0,
-      "url": "https://smithtown-landing-country-club.book.teeitup.com"
     },
     {
       "course_key": "stonebridge",
@@ -1355,8 +1333,8 @@
       "course_key": "smithtown_landing",
       "course": "Smithtown Landing Country Club",
       "date": "2026-09-13",
-      "time": "11:48a",
-      "when": "2026-09-13T11:48:00",
+      "time": "11:44a",
+      "when": "2026-09-13T11:44:00",
       "holes": 18,
       "players": 4,
       "price": 56.0,
@@ -1388,8 +1366,8 @@
       "course_key": "smithtown_landing",
       "course": "Smithtown Landing Country Club",
       "date": "2026-09-13",
-      "time": "11:56a",
-      "when": "2026-09-13T11:56:00",
+      "time": "11:52a",
+      "when": "2026-09-13T11:52:00",
       "holes": 18,
       "players": 4,
       "price": 56.0,
