@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T11:23:35.462228-04:00",
+  "updated": "2026-09-08T11:41:07.003658-04:00",
   "count": 100,
   "settings": {
     "courses": [
@@ -566,7 +566,7 @@
       "time": "9:00a",
       "when": "2026-09-13T09:00:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
