@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T08:00:24.276068-04:00",
+  "updated": "2026-09-09T08:25:31.722430-04:00",
   "count": 89,
   "settings": {
     "courses": [
@@ -74,17 +74,6 @@
       "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-12",
-      "time": "7:52a",
-      "when": "2026-09-12T07:52:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -459,6 +448,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-13",
+      "time": "7:40a",
+      "when": "2026-09-13T07:40:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
