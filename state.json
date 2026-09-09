@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T11:32:47.138502-04:00",
-  "count": 82,
+  "updated": "2026-09-09T11:49:14.207786-04:00",
+  "count": 84,
   "settings": {
     "courses": [
       "bethpage",
@@ -79,12 +79,34 @@
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-12",
+      "time": "8:16a",
+      "when": "2026-09-12T08:16:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-12",
       "time": "8:24a",
       "when": "2026-09-12T08:24:00",
       "holes": 18,
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-12",
+      "time": "8:30a",
+      "when": "2026-09-12T08:30:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -107,6 +129,17 @@
       "players": 2,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-12",
+      "time": "8:40a",
+      "when": "2026-09-12T08:40:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -147,17 +180,6 @@
       "date": "2026-09-12",
       "time": "9:12a",
       "when": "2026-09-12T09:12:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-12",
-      "time": "10:16a",
-      "when": "2026-09-12T10:16:00",
       "holes": 18,
       "players": 4,
       "price": null,
