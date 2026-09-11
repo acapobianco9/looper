@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10T22:49:18.332570-04:00",
-  "count": 57,
+  "updated": "2026-09-10T22:59:47.250303-04:00",
+  "count": 58,
   "settings": {
     "courses": [
       "bethpage",
@@ -94,6 +94,17 @@
       "when": "2026-09-12T10:54:00",
       "holes": 18,
       "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-12",
+      "time": "11:21a",
+      "when": "2026-09-12T11:21:00",
+      "holes": 18,
+      "players": 2,
       "price": 33.0,
       "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
