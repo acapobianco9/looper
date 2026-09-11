@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10T22:19:18.091852-04:00",
-  "count": 56,
+  "updated": "2026-09-10T22:35:00.032294-04:00",
+  "count": 57,
   "settings": {
     "courses": [
       "bethpage",
@@ -87,6 +87,17 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-12",
+      "time": "11:21a",
+      "when": "2026-09-12T11:21:00",
+      "holes": 18,
+      "players": 2,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-09-12",
@@ -159,7 +170,7 @@
       "time": "7:10a",
       "when": "2026-09-13T07:10:00",
       "holes": 18,
-      "players": 4,
+      "players": 3,
       "price": 56.0,
       "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
@@ -489,7 +500,7 @@
       "time": "11:27a",
       "when": "2026-09-13T11:27:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 111.0,
       "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
