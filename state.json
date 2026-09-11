@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T20:50:17.632516-04:00",
+  "updated": "2026-09-10T21:02:05.711301-04:00",
   "count": 54,
   "settings": {
     "courses": [
@@ -63,17 +63,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-09-12",
-      "time": "8:40a",
-      "when": "2026-09-12T08:40:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -547,6 +536,17 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
+      "date": "2026-09-13",
+      "time": "11:40a",
+      "when": "2026-09-13T11:40:00",
+      "holes": 18,
+      "players": 2,
+      "price": 37.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
     },
     {
       "course_key": "stonebridge",
