@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15T20:16:46.064764-04:00",
-  "count": 64,
+  "updated": "2026-09-16T00:58:17.717015-04:00",
+  "count": 60,
   "settings": {
     "courses": [
       "bethpage",
@@ -46,50 +46,6 @@
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-19",
-      "time": "7:12a",
-      "when": "2026-09-19T07:12:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-19",
-      "time": "7:28a",
-      "when": "2026-09-19T07:28:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-19",
-      "time": "7:44a",
-      "when": "2026-09-19T07:44:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-19",
-      "time": "7:52a",
-      "when": "2026-09-19T07:52:00",
-      "holes": 18,
-      "players": 2,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-19",
       "time": "8:08a",
       "when": "2026-09-19T08:08:00",
       "holes": 18,
@@ -103,17 +59,6 @@
       "date": "2026-09-19",
       "time": "8:16a",
       "when": "2026-09-19T08:16:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-09-19",
-      "time": "8:24a",
-      "when": "2026-09-19T08:24:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -217,6 +162,17 @@
       "players": 4,
       "price": 68.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-19",
+      "time": "11:12a",
+      "when": "2026-09-19T11:12:00",
+      "holes": 18,
+      "players": 2,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "cherry_creek",
