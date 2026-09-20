@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T13:44:24.185479-04:00",
-  "count": 113,
+  "updated": "2026-09-20T15:49:35.543909-04:00",
+  "count": 111,
   "settings": {
     "courses": [
       "bethpage",
@@ -1033,17 +1033,6 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "holbrook",
-      "course": "Holbrook Country Club",
-      "date": "2026-09-27",
-      "time": "10:50a",
-      "when": "2026-09-27T10:50:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
-    },
-    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-27",
@@ -1130,17 +1119,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "rock_hill",
-      "course": "Rock Hill Golf & Country Club",
-      "date": "2026-09-27",
-      "time": "11:20a",
-      "when": "2026-09-27T11:20:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "middle_island",
