@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T01:23:41.498706-04:00",
-  "count": 104,
+  "updated": "2026-09-24T06:19:20.896126-04:00",
+  "count": 106,
   "settings": {
     "courses": [
       "bethpage",
@@ -129,6 +129,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-26",
+      "time": "8:39a",
+      "when": "2026-09-26T08:39:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "holbrook",
@@ -1009,6 +1020,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-09-27",
+      "time": "11:28a",
+      "when": "2026-09-27T11:28:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "smithtown_landing",
