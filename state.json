@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T06:19:20.896126-04:00",
-  "count": 106,
+  "updated": "2026-09-24T11:17:31.626583-04:00",
+  "count": 138,
   "settings": {
     "courses": [
       "bethpage",
@@ -42,6 +42,72 @@
     }
   },
   "open": [
+    {
+      "course_key": "cherry_creek",
+      "course": "Cherry Creek Golf Links (Riverhead)",
+      "date": "2026-09-26",
+      "time": "6:40a",
+      "when": "2026-09-26T06:40:00",
+      "holes": 18,
+      "players": 3,
+      "price": 68.0,
+      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-26",
+      "time": "6:48a",
+      "when": "2026-09-26T06:48:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "cherry_creek",
+      "course": "Cherry Creek Golf Links (Riverhead)",
+      "date": "2026-09-26",
+      "time": "7:00a",
+      "when": "2026-09-26T07:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "cherry_creek",
+      "course": "Cherry Creek Golf Links (Riverhead)",
+      "date": "2026-09-26",
+      "time": "7:10a",
+      "when": "2026-09-26T07:10:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-26",
+      "time": "7:12a",
+      "when": "2026-09-26T07:12:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-26",
+      "time": "7:20a",
+      "when": "2026-09-26T07:20:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
     {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
@@ -98,6 +164,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-09-26",
+      "time": "8:00a",
+      "when": "2026-09-26T08:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
@@ -129,17 +206,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-09-26",
-      "time": "8:39a",
-      "when": "2026-09-26T08:39:00",
-      "holes": 18,
-      "players": 4,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "holbrook",
@@ -200,23 +266,23 @@
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
-      "time": "9:12a",
-      "when": "2026-09-26T09:12:00",
+      "time": "9:04a",
+      "when": "2026-09-26T09:04:00",
       "holes": 18,
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
-      "course_key": "montauk_downs",
-      "course": "Montauk Downs State Park Golf Course",
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
       "date": "2026-09-26",
       "time": "9:12a",
       "when": "2026-09-26T09:12:00",
       "holes": 18,
       "players": 4,
-      "price": 111.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -241,6 +307,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-09-26",
+      "time": "9:30a",
+      "when": "2026-09-26T09:30:00",
+      "holes": 18,
+      "players": 2,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
@@ -250,6 +327,28 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-09-26",
+      "time": "9:39a",
+      "when": "2026-09-26T09:39:00",
+      "holes": 18,
+      "players": 4,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-26",
+      "time": "9:42a",
+      "when": "2026-09-26T09:42:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -272,6 +371,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-26",
+      "time": "10:00a",
+      "when": "2026-09-26T10:00:00",
+      "holes": 18,
+      "players": 2,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -301,6 +411,17 @@
       "date": "2026-09-26",
       "time": "10:16a",
       "when": "2026-09-26T10:16:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-26",
+      "time": "10:24a",
+      "when": "2026-09-26T10:24:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -351,6 +472,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-26",
+      "time": "11:00a",
+      "when": "2026-09-26T11:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
@@ -371,6 +503,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-09-26",
+      "time": "11:15a",
+      "when": "2026-09-26T11:15:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -395,6 +538,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-09-26",
+      "time": "11:33a",
+      "when": "2026-09-26T11:33:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
@@ -404,6 +558,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-09-26",
+      "time": "11:42a",
+      "when": "2026-09-26T11:42:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -417,6 +582,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-09-26",
+      "time": "11:51a",
+      "when": "2026-09-26T11:51:00",
+      "holes": 18,
+      "players": 4,
+      "price": 68.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
@@ -428,11 +604,33 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-26",
+      "time": "11:57a",
+      "when": "2026-09-26T11:57:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-26",
       "time": "12:00p",
       "when": "2026-09-26T12:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-27",
+      "time": "7:04a",
+      "when": "2026-09-27T07:04:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -456,7 +654,7 @@
       "time": "7:20a",
       "when": "2026-09-27T07:20:00",
       "holes": 18,
-      "players": 2,
+      "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -481,6 +679,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "cherry_creek",
+      "course": "Cherry Creek Golf Links (Riverhead)",
+      "date": "2026-09-27",
+      "time": "7:50a",
+      "when": "2026-09-27T07:50:00",
+      "holes": 18,
+      "players": 2,
+      "price": 68.0,
+      "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -508,8 +717,52 @@
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-27",
+      "time": "8:08a",
+      "when": "2026-09-27T08:08:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-09-27",
+      "time": "8:09a",
+      "when": "2026-09-27T08:09:00",
+      "holes": 18,
+      "players": 4,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-27",
       "time": "8:16a",
       "when": "2026-09-27T08:16:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-09-27",
+      "time": "8:18a",
+      "when": "2026-09-27T08:18:00",
+      "holes": 18,
+      "players": 4,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
+    {
+      "course_key": "middle_island",
+      "course": "Middle Island Country Club",
+      "date": "2026-09-27",
+      "time": "8:24a",
+      "when": "2026-09-27T08:24:00",
       "holes": 18,
       "players": 4,
       "price": null,
@@ -522,7 +775,7 @@
       "time": "8:32a",
       "when": "2026-09-27T08:32:00",
       "holes": 18,
-      "players": 2,
+      "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
@@ -692,6 +945,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-09-27",
+      "time": "9:52a",
+      "when": "2026-09-27T09:52:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-09-27",
@@ -723,6 +987,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "rock_hill",
+      "course": "Rock Hill Golf & Country Club",
+      "date": "2026-09-27",
+      "time": "10:00a",
+      "when": "2026-09-27T10:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -824,6 +1099,17 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-27",
+      "time": "10:30a",
+      "when": "2026-09-27T10:30:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-27",
@@ -846,6 +1132,28 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
+      "course_key": "crab_meadow",
+      "course": "Crab Meadow Golf Course",
+      "date": "2026-09-27",
+      "time": "10:40a",
+      "when": "2026-09-27T10:40:00",
+      "holes": 18,
+      "players": 4,
+      "price": 56.0,
+      "url": "https://foreupsoftware.com/index.php/booking/21593/8314#teetimes"
+    },
+    {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-27",
+      "time": "10:40a",
+      "when": "2026-09-27T10:40:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-27",
@@ -866,6 +1174,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-09-27",
+      "time": "10:54a",
+      "when": "2026-09-27T10:54:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -923,6 +1242,17 @@
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
+      "course_key": "smithtown_landing",
+      "course": "Smithtown Landing Country Club",
+      "date": "2026-09-27",
+      "time": "11:04a",
+      "when": "2026-09-27T11:04:00",
+      "holes": 18,
+      "players": 4,
+      "price": 56.0,
+      "url": "https://smithtown-landing-country-club.book.teeitup.com"
+    },
+    {
       "course_key": "montauk_downs",
       "course": "Montauk Downs State Park Golf Course",
       "date": "2026-09-27",
@@ -978,6 +1308,17 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
+      "course_key": "holbrook",
+      "course": "Holbrook Country Club",
+      "date": "2026-09-27",
+      "time": "11:20a",
+      "when": "2026-09-27T11:20:00",
+      "holes": 18,
+      "players": 4,
+      "price": null,
+      "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-09-27",
@@ -1009,6 +1350,17 @@
       "players": 4,
       "price": 56.0,
       "url": "https://smithtown-landing-country-club.book.teeitup.com"
+    },
+    {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-09-27",
+      "time": "11:27a",
+      "when": "2026-09-27T11:27:00",
+      "holes": 18,
+      "players": 4,
+      "price": 111.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
     {
       "course_key": "middle_island",
