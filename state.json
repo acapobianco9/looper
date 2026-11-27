@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T18:58:56.606888-05:00",
-  "count": 139,
+  "updated": "2026-11-26T19:34:24.388666-05:00",
+  "count": 138,
   "settings": {
     "courses": [
       "bethpage",
@@ -492,17 +492,6 @@
       "players": 4,
       "price": 53.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
-    },
-    {
-      "course_key": "middle_island",
-      "course": "Middle Island Country Club",
-      "date": "2026-11-28",
-      "time": "10:56a",
-      "when": "2026-11-28T10:56:00",
-      "holes": 18,
-      "players": 4,
-      "price": null,
-      "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
