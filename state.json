@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T15:33:50.122742-05:00",
-  "count": 139,
+  "updated": "2026-11-27T15:42:06.474200-05:00",
+  "count": 140,
   "settings": {
     "courses": [
       "bethpage",
@@ -335,7 +335,7 @@
       "time": "9:20a",
       "when": "2026-11-28T09:20:00",
       "holes": 18,
-      "players": 4,
+      "players": 3,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
@@ -1471,6 +1471,17 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
+    },
+    {
+      "course_key": "tall_grass",
+      "course": "Hominy Hill Golf Course",
+      "date": "2026-11-29",
+      "time": "11:45a",
+      "when": "2026-11-29T11:45:00",
+      "holes": 18,
+      "players": 2,
+      "price": 79.0,
+      "url": "https://foreupsoftware.com/index.php/booking/20290/3782#teetimes"
     },
     {
       "course_key": "rock_hill",
