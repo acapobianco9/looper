@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T15:58:52.485244-05:00",
-  "count": 138,
+  "updated": "2026-11-27T16:12:20.971542-05:00",
+  "count": 139,
   "settings": {
     "courses": [
       "bethpage",
@@ -151,6 +151,17 @@
       "players": 4,
       "price": 53.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
+    },
+    {
+      "course_key": "sunken_meadow",
+      "course": "Sunken Meadow State Park",
+      "date": "2026-11-28",
+      "time": "8:03a",
+      "when": "2026-11-28T08:03:00",
+      "holes": 18,
+      "players": 4,
+      "price": 33.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "middle_island",
@@ -467,7 +478,7 @@
       "time": "10:30a",
       "when": "2026-11-28T10:30:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 53.0,
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
