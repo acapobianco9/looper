@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T14:54:12.078287-05:00",
-  "count": 138,
+  "updated": "2026-11-27T15:02:35.830152-05:00",
+  "count": 139,
   "settings": {
     "courses": [
       "bethpage",
@@ -373,6 +373,17 @@
       "url": "https://the-woods-at-cherry-creek.book.teeitup.golf/"
     },
     {
+      "course_key": "montauk_downs",
+      "course": "Montauk Downs State Park Golf Course",
+      "date": "2026-11-28",
+      "time": "9:30a",
+      "when": "2026-11-28T09:30:00",
+      "holes": 18,
+      "players": 4,
+      "price": 60.0,
+      "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-11-28",
@@ -434,7 +445,7 @@
       "time": "10:06a",
       "when": "2026-11-28T10:06:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": 60.0,
       "url": "https://foreupsoftware.com/index.php/booking/19756/2436#teetimes"
     },
