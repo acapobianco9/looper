@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T21:08:58.036710-05:00",
-  "count": 206,
+  "updated": "2026-11-27T21:22:31.907240-05:00",
+  "count": 205,
   "settings": {
     "courses": [
       "bethpage",
@@ -1380,7 +1380,7 @@
       "time": "11:10a",
       "when": "2026-11-29T11:10:00",
       "holes": 18,
-      "players": 2,
+      "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
@@ -1482,17 +1482,6 @@
       "players": 4,
       "price": null,
       "url": "https://middle-island-country-club.book.teeitup.golf/"
-    },
-    {
-      "course_key": "sunken_meadow",
-      "course": "Sunken Meadow State Park",
-      "date": "2026-11-29",
-      "time": "11:39a",
-      "when": "2026-11-29T11:39:00",
-      "holes": 18,
-      "players": 4,
-      "price": 33.0,
-      "url": "https://foreupsoftware.com/index.php/booking/19766/2437#teetimes"
     },
     {
       "course_key": "cherry_creek",
