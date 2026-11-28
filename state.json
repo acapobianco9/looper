@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-28T00:03:14.344070-05:00",
-  "count": 250,
+  "updated": "2026-11-28T00:15:55.766055-05:00",
+  "count": 257,
   "settings": {
     "courses": [
       "bethpage",
@@ -2326,7 +2326,7 @@
       "time": "10:20a",
       "when": "2026-12-05T10:20:00",
       "holes": 18,
-      "players": 4,
+      "players": 2,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/19107/959#teetimes"
     },
@@ -2529,6 +2529,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "11:06a",
+      "when": "2026-12-05T11:06:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-12-05",
@@ -2573,6 +2584,17 @@
       "url": "https://middle-island-country-club.book.teeitup.golf/"
     },
     {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "11:15a",
+      "when": "2026-12-05T11:15:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "cherry_creek",
       "course": "Cherry Creek Golf Links (Riverhead)",
       "date": "2026-12-05",
@@ -2615,6 +2637,17 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "11:24a",
+      "when": "2026-12-05T11:24:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -2661,6 +2694,17 @@
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "11:33a",
+      "when": "2026-12-05T11:33:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-12-05",
@@ -2705,6 +2749,17 @@
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
     },
     {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "11:42a",
+      "when": "2026-12-05T11:42:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
+    },
+    {
       "course_key": "middle_island",
       "course": "Middle Island Country Club",
       "date": "2026-12-05",
@@ -2736,6 +2791,17 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "11:51a",
+      "when": "2026-12-05T11:51:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     },
     {
       "course_key": "middle_island",
@@ -2791,6 +2857,17 @@
       "players": 4,
       "price": null,
       "url": "https://foreupsoftware.com/index.php/booking/20662/5270#teetimes"
+    },
+    {
+      "course_key": "stonebridge",
+      "course": "Stonebridge Golf Links & CC (Smithtown)",
+      "date": "2026-12-05",
+      "time": "12:00p",
+      "when": "2026-12-05T12:00:00",
+      "holes": 18,
+      "players": 4,
+      "price": 57.0,
+      "url": "https://stonebridge-golf-links-and-country-club.book.teeitup.golf/"
     }
   ],
   "catalog": [
